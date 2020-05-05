@@ -6,9 +6,10 @@
 <script>
 	import { Router, Link, Route } from "svelte-routing";
 	import Blog from "./Blog.svelte" 
+	import Tolv from './Tolv.svelte'
 
 	const nesteSide = () => {
-		alert('clicked')
+		Tolv
 	}
 
 	/* import {auth, googleProvider} from "./../firebase.js"
@@ -28,8 +29,8 @@
 </script>
 
 <header>
-	<!-- <button to="Goals">Bærekraftsmålet</button>
-    <button to="blog">Blog</button> -->
+	<button to="Goals">Bærekraftsmålet</button>
+    <button to="blog">Blog</button>
     <!-- {#if user}
         <div id="user">
             <img id="imgProfil" src={user.photoURL} alt="meg"/>
@@ -51,7 +52,6 @@
 </header>
 <main>
 	<div id="main">
-		
 		<img on:click={nesteSide} id="susEarth" alt="susLogo" src='./artikkelBilder/img/sdgsEarth1.png' />
 		<img id="susGoals" alt="susLogo" src='./artikkelBilder/img/sdgsGoals1.png' />
 		<img id="susTolv" alt="susLogo" src='./artikkelBilder/img/sdgsTolv.png' />
