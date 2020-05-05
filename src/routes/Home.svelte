@@ -28,6 +28,8 @@
 </script>
 
 <header>
+	<!-- <button to="Goals">Bærekraftsmålet</button>
+    <button to="blog">Blog</button> -->
     <!-- {#if user}
         <div id="user">
             <img id="imgProfil" src={user.photoURL} alt="meg"/>
@@ -52,7 +54,7 @@
 		
 		<img on:click={nesteSide} id="susEarth" alt="susLogo" src='./artikkelBilder/img/sdgsEarth1.png' />
 		<img id="susGoals" alt="susLogo" src='./artikkelBilder/img/sdgsGoals1.png' />
-		<img  id="susTolv" alt="susLogo" src='./artikkelBilder/img/sdgsTolv.png' />
+		<img id="susTolv" alt="susLogo" src='./artikkelBilder/img/sdgsTolv.png' />
 	</div>
 </main>
 
