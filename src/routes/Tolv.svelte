@@ -11,6 +11,8 @@
 <header>
     <button>12</button>
     <button>Ansvarlig forbruk og produksjon</button>
+    <button to="Goals">Bærekraftsmålet</button>
+    <button to="blog">Blog</button>
 </header>
 <main>
     <div id="homepage">

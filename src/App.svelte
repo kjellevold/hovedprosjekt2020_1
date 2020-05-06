@@ -5,17 +5,12 @@
   import Home from "./routes/Home.svelte";
   import Blog from "./routes/Blog.svelte"
   import Goals from "./routes/Goals.svelte"
-
   export let url = "";
-
   /* let user;
-
   const unsubscribe = authState(auth).subscribe(u => user = u)
-
   const login = () => {
       auth.signInWithPopup(googleProvider)
   }
-
   const logout = () => {
       auth.signOut()
   } */
@@ -24,7 +19,7 @@
 <Router url="{url}">
   <nav>
     <div id="header">
-      <img to="/" id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
+      <img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
       <Link to="/">Sustainability Goals</Link>
       <img id="sdg" alt='sdg' src='./artikkelBilder/img/sdgWhite.png'>
     </div>
@@ -40,9 +35,3 @@
     <Route path="/"><Home /></Route>
   </div>
 </Router>
-
-<style>
-	
-
-</style>
-
