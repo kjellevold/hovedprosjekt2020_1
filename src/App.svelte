@@ -20,7 +20,7 @@
   <nav>
     <div id="header">
       <img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
-      <Link to="/">Sustainability Goals</Link>
+      <Link to="Home">Sustainability Goals</Link>
       <img id="sdg" alt='sdg' src='./artikkelBilder/img/sdgWhite.png'>
     </div>
   <!-- {#if user} -->  

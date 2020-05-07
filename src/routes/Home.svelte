@@ -47,56 +47,57 @@
 </header>
 
 
-<div id="main">
-	<img id="susEarth" alt="susLogo" src='./artikkelBilder/img/sdgsEarth1.png' />
-	<img id="susGoals" alt="susLogo" src='./artikkelBilder/img/sdgsGoals1.png' />
-	<img on:click={ () => whatPage = 1 } id="susTolv" alt="susLogo" src='./artikkelBilder/img/sdgsTolv.png' />
-</div>
+{#if whatPage == 1}
+	<div id="main">
+		<img id="susEarth" alt="susLogo" src='./artikkelBilder/img/sdgsEarth1.png' />
+		<img id="susGoals" alt="susLogo" src='./artikkelBilder/img/sdgsGoals1.png' />
+		<img on:click={ () => whatPage = 2 } id="susTolv" alt="susLogo" src='./artikkelBilder/img/sdgsTolv.png' />
+	</div>
+{/if}
 
-{#if whatPage == 1 }
+{#if whatPage == 2 }
 	<Tolv />
 {/if}
 
 
 <style>
 	div {
-		
+		position: absolute;
 		margin: 0 auto;
 		display: grid;
 		grid-template-rows: 1fr 3fr;
 		overflow: hidden;
 	}
 
-	
-
 	#main {
 		height: 80%;
 	}
 
 	img {
-		max-width: 100%;
+		width: 35%;
 	}
 
 	#susGoals {
-		opacity: 30%;
-		width: 48%;
-		margin-top: -48%;
 		margin-left: auto;
 		margin-right: auto;
+		margin-top: -35%;
+		opacity: 30%;
+		z-index: 1;
 	}
 
 	#susEarth {
-		width: 48%;
-		margin-top: -2%;
 		margin-left: auto;
 		margin-right: auto;
+		margin-top: 2%;
+		z-index: 1;
 	}
 
 	#susTolv {
-		width: 48%;
-		margin-top: -186%;
-		margin-left: auto;
-		margin-right: auto;
+		position: absolute;
+		width: 9%;
+		margin-left: 33%;
+		margin-top: 22.5%;
+		z-index: 2;
 	}
 
 
@@ -108,24 +109,29 @@
 		}
 
 		img {
-			max-width: 100%;
-			
+			width: 80%;
 		}
 
 		#susGoals {
-			width: 100%;
-			margin-top: -100%;
+			z-index: 1;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: -80%;
 		}
 
 		#susEarth {
-			width: 100%;
-			margin-top: 20%;
+			z-index: 1;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 30%;
 		}
+
 		#susTolv {
-			width: 100%;
-			margin-top: -460%;
-		
-	}
+			z-index: 2;
+			width: 20%;
+			margin-left: 11%;
+			margin-top: 78%;
+		}
 		
 	}
 
