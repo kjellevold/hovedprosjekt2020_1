@@ -15,14 +15,14 @@
     <button to="blog">Blog</button>
 </div>
 
-<div id="homepage">
+<div id="container">
     <img id="bigImg" alt="forsideImg" src='./artikkelBilder/bilde1.jpg' />
 </div>
 
 
 
 <style>
-    #tolvHeader {
+    /* #tolvHeader {
         position: absolute;
         display: grid;
         grid-template-columns: 3fr 1fr 1fr;
@@ -33,13 +33,12 @@
         padding: 10px;
         padding-left: 20px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        /* color: #D08C25; */
         color: white;
         float: left;
     }
 
     button {
-        max-height: 150px;
+        height: 150px;
         width: 70%;
         margin: 1%;
         margin-top: auto;
@@ -57,11 +56,49 @@
         width: 98%;
         border: 10px solid white;
         margin-top: 1%;
-    }
+    } */
 
-    @media only screen and (max-width: 400px) {
+    @media screen and (max-width: 400px) {
+        #tolvHeader {
+            position: absolute;
+            display: grid;
+            grid-template-rows: 2fr 1fr 1fr;
+            width: 80%;
+            text-align: center;
+            justify-content: center;
+            z-index: 2;
+        }
+
+        h1 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: white;
+            padding: 10px;
+        }
+
+        button {
+            height: 50px;
+            width: 60%;
+            margin: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            border: none;
+        }
+
+        #container {
+            margin: 0;
+            width: 350px;
+            height: 700px;
+            display: block;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
         img {
-            min-height: 100%;
+            border: none;
+            display: block;
+            margin: 0 auto;
+            text-align:center;
         }
 
     }

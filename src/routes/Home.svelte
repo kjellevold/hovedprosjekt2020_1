@@ -102,7 +102,7 @@
 
 
 
-	@media only screen and (max-width: 400px) {
+	@media screen and (max-width: 400px) {
 		
 		#main {
 			height: 80%;
