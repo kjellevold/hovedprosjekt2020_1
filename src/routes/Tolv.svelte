@@ -16,72 +16,79 @@
 </div>
 
 <div id="container">
-    <img id="bigImg" alt="forsideImg" src='./artikkelBilder/bilde1.jpg' />
+    <img id="bigImg" alt="forsideImg" src='./artikkelBilder/img/bilde2.jpg' />
 </div>
 
 
 
 <style>
-    /* #tolvHeader {
-        position: absolute;
-        display: grid;
-        grid-template-columns: 3fr 1fr 1fr;
-        width: 100%;
-    }
+    @media screen and (max-width: 1300px) {
 
-    h1 {
-        padding: 10px;
-        padding-left: 20px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        color: white;
-        float: left;
-    }
+        #tolvHeader {
+            position: absolute;
+            display: grid;
+            grid-template-columns: 3fr 1fr 1fr;
+            width: 100%;
+        }
 
-    button {
-        height: 150px;
-        width: 70%;
-        margin: 1%;
-        margin-top: auto;
-        margin-bottom: auto;
-        float: right;
-        border: none;
-        color: black;
-    }
+        h1 {
+            padding: 10px;
+            padding-left: 20px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: white;
+            float: left;
+        }
 
-    #homepage {
-        display: block;
-    }
+        button {
+            height: 150px;
+            width: 70%;
+            margin: 1%;
+            margin-top: auto;
+            margin-bottom: auto;
+            float: right;
+            border: none;
+            color: black;
+        }
 
-    img {
-        width: 98%;
-        border: 10px solid white;
-        margin-top: 1%;
-    } */
+        #container {
+            display: block;
+        }
+
+        img {
+            width: 98%;
+            border: 10px solid white;
+            margin-top: 1%;
+        }
+
+    }
 
     @media screen and (max-width: 400px) {
         #tolvHeader {
             position: absolute;
             display: grid;
-            grid-template-rows: 2fr 1fr 1fr;
-            width: 80%;
+            grid-template-rows: 7fr 1fr 1fr;
+            width: 100%;
             text-align: center;
             justify-content: center;
             z-index: 2;
+            height: 80%;
         }
 
         h1 {
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            color: white;
+            /* color: #D08C25; */
+            color: black;
             padding: 10px;
+            margin-bottom: 30px;
         }
 
         button {
             height: 50px;
-            width: 60%;
-            margin: 20px;
+            width: 65%;
             margin-left: auto;
             margin-right: auto;
             border: none;
+            float: end;
         }
 
         #container {
@@ -92,13 +99,19 @@
             position: relative;
             overflow: hidden;
             z-index: 1;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         img {
+            height: 100%;
             border: none;
-            display: block;
-            margin: 0 auto;
-            text-align:center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 60%;
         }
 
     }
