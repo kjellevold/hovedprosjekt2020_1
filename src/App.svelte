@@ -4,8 +4,8 @@
   import {authState} from "rxfire/auth"  
   import Home from "./routes/Home.svelte";
   import Blog from "./routes/Blog.svelte"
-  import Goals from "./routes/Goals.svelte"
-  
+  import Facts from "./routes/Facts.svelte"
+
   export let url = "";
   /* let user;
   const unsubscribe = authState(auth).subscribe(u => user = u)
@@ -22,7 +22,7 @@
     <div id="header">
       <img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
       <Link to="/">Sustainability Goals</Link>
-      <img id="sdg" alt='sdg' src='./artikkelBilder/img/sdgWhite.png'>
+      <!-- <img id="sdg" alt='sdg' src='./artikkelBilder/img/sdgWhite.png'> -->
     </div>
   <!-- {#if user} -->  
   <!-- {/if} -->

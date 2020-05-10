@@ -1,6 +1,6 @@
 
 <script>
-    import Goal from "./../components/Goal.svelte"
+    import Fact from "./../components/Fact.svelte"
     import {onMount} from "svelte"
     import {db} from "./../firebase.js"
 
@@ -12,9 +12,8 @@
             facts = snap.docs;
         })
     })
- 
-    let facts = []
 
+    let facts = []
 
 </script>
 
@@ -23,7 +22,7 @@
 <div id="gridFact">
     {#each facts as fact}
         <div id="fact">
-           <Goal id={fact.id} data={fact.data()} />
+           <Fact id={fact.id} data={fact.data()} />
         </div>
     {:else}
         <div>Loading...</div>

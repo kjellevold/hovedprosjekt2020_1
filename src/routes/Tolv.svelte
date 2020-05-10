@@ -3,22 +3,32 @@
 </svelte:head>
 
 <script>
-    import Goals from './Goals.svelte'
+    import Facts from './Facts.svelte'
     import Blog from './Blog.svelte'
+
+    let whatPage = 1
 
 </script>
 
+{#if whatPage == 1}
+    <div id="tolvHeader">
+        <h1>12 Ansvarlig forbruk og produksjon</h1>
+        <button on:click={ () => whatPage = 2 }>FunFacts</button>
+        <button on:click={ () => whatPage = 3 }>Blog</button>
+    </div>
 
-<div id="tolvHeader">
-    <h1>12 Ansvarlig forbruk og produksjon</h1>
-    <button to="Goals">Bærekraftsmålet</button>
-    <button to="blog">Blog</button>
-</div>
+    <div id="container">
+        <img id="bigImg" alt="forsideImg" src='./artikkelBilder/img/bilde2.jpg' />
+    </div>
+{/if}
 
-<div id="container">
-    <img id="bigImg" alt="forsideImg" src='./artikkelBilder/img/bilde2.jpg' />
-</div>
+{#if whatPage == 2}
+    <Facts />
+{/if}
 
+{#if whatPage == 3}
+    <Blog />
+{/if}
 
 
 <style>
@@ -34,30 +44,46 @@
         h1 {
             padding: 10px;
             padding-left: 20px;
+            margin-top: 20px;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             color: white;
             float: left;
+            z-index: 2;
         }
 
         button {
-            height: 150px;
+            height: 50px;
             width: 70%;
             margin: 1%;
-            margin-top: auto;
-            margin-bottom: auto;
+            margin-top: 30px;
             float: right;
             border: none;
             color: black;
+            z-index: 2;
         }
 
-        #container {
+         #container {
+            margin: 0;
+            margin-top: 20px;
+            width: 1300px;
+            height: 500px;
             display: block;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         img {
-            width: 98%;
-            border: 10px solid white;
-            margin-top: 1%;
+            width: 100%;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 60%;
         }
 
     }
@@ -68,10 +94,10 @@
             display: grid;
             grid-template-rows: 7fr 1fr 1fr;
             width: 100%;
+            height: 80%;
             text-align: center;
             justify-content: center;
             z-index: 2;
-            height: 80%;
         }
 
         h1 {
@@ -93,7 +119,7 @@
 
         #container {
             margin: 0;
-            width: 350px;
+            width: 390px;
             height: 700px;
             display: block;
             position: relative;
