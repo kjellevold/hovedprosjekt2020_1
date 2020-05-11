@@ -9,43 +9,15 @@
 
 	let whatPage = 1
 
-	/* import {auth, googleProvider} from "./../firebase.js"
+	import {auth, googleProvider} from "./../firebase.js"
     import {authState} from "rxfire/auth"   
 
-    let user;
-
-    const unsubscribe = authState(auth).subscribe(u => user = u)
-
-    const login = () => {
-        auth.signInWithPopup(googleProvider)
-    }
-
-    const logout = () => {
-        auth.signOut()
-    } */
+    
 </script>
 
 <header>
-    <!-- {#if user}
-        <div id="user">
-            <img id="imgProfil" src={user.photoURL} alt="meg"/>
-            <button on:click={logout}>Logg ut</button>
-        </div> -->
-		<!-- <div id="header">
-			<img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
-			
-			<img on:click={nesteSide} id="sdg" alt='sdg' src='./artikkelBilder/img/sdgWhite.png'>
-		</div> -->
-    <!-- {:else} -->
-		<!-- <div id="header">
-			<img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
-        	<button id="logIn" on:click={login}>Logg inn</button>
-			<h1 id="sustainability">Sustainability <br/> Goals</h1>
-			<img id="sdg" alt='sdg' src='./artikkelBilder/img/sdgWhite.png'>
-		</div> -->
-    <!-- {/if} -->
+    
 </header>
-
 
 {#if whatPage == 1}
 	<div id="main">
@@ -135,32 +107,6 @@
 		
 	}
 
-	/* #user {
-        display: grid;
-        grid-auto-flow: row;
-        justify-content: end;
-        align-items: center;
-		gap: 1rem;
-		height: 150px;
-    }
-
-    #imgProfil {
-        width: 100px;
-        border-radius: 50%;
-	}
 	
-	button {
-		display: block;
-		max-width: 100px;
-		float: right;
-		margin-right: 20px;	
-		margin-top: 20px;	
-	}
-
-	#logIn {
-		display: block;
-		float: right;
-		height: 50px;
-	} */
 
 </style>

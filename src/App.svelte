@@ -7,32 +7,42 @@
   import Facts from "./routes/Facts.svelte"
 
   export let url = "";
-  /* let user;
+
+  let user;
   const unsubscribe = authState(auth).subscribe(u => user = u)
   const login = () => {
       auth.signInWithPopup(googleProvider)
   }
   const logout = () => {
       auth.signOut()
-  } */
+  }
 </script>
 
 <Router url="{url}">
   <nav>
-    <div id="header">
+    <!-- <div id="header">
       <img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
       <Link to="/">Sustainability Goals</Link>
-      <!-- <img id="sdg" alt='sdg' src='./artikkelBilder/img/sdgWhite.png'> -->
-    </div>
-  <!-- {#if user} -->  
-  <!-- {/if} -->
+    </div> -->
+    {#if user}
+      <div id="header">
+        <img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
+        <Link to="/">Sustainability Goals</Link>
+          <div id="user">
+            <img id="imgProfil" src={user.photoURL} alt="meg"/>
+            <button id="logOut" on:click={logout}>Logg ut</button>
+          </div>
+      </div>
+    {:else}
+		<div id="header">
+      <img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
+      <Link to="/">Sustainability Goals</Link>
+        <button id="logIn" on:click={login}>Logg inn</button>
+		</div>
+    {/if}
   </nav>
   
   <div>
-  <!-- {#if user} -->
-    <!-- <Route path="blog" component="{Blog}" />
-    <Route path="Goals" component="{Goals}" /> -->
-  <!-- {/if} -->
     <Route path="/"><Home /></Route>
   </div>
 </Router>
