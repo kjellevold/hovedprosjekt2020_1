@@ -12,17 +12,25 @@
         artikler = db.collection("artikler")
     })
 
+    let artikkelSide = data.id
+
 </script>
 
-<div id={id}>
+<div on:click={ () => artikkelSide } id={id}>
     <img src={data.img} alt="">    
     <h3>{data.title}</h3>
 </div>
 
 <style>
+    div {
+        width: 100%;
+        height: 80%;
+        margin: 10px;
+    }
+
     img {
         width: 100%;
-		height: 80%;
+		height: 100%;
 		overflow: hidden;
 		object-fit: cover;
     }

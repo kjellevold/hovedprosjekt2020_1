@@ -18,7 +18,6 @@
         factDB.doc(id).set({
             fact: fact
         })
-        
     }
 
     // endre fakta

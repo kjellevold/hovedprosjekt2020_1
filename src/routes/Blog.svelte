@@ -40,11 +40,13 @@
     #artikkelGrid {
         display: grid;
 		grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
-		gap: 1rem;
+        gap: 1rem;
+        width: 90%;
+        margin: 0 auto;
     }
 
     #artikkel {
-        height: 70%;
+        height: 250px;
 
     }
 

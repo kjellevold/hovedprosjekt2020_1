@@ -15,9 +15,7 @@
     
 </script>
 
-<header>
-    
-</header>
+
 
 {#if whatPage == 1}
 	<div id="main">
