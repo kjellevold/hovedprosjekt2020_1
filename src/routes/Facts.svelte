@@ -15,6 +15,15 @@
 
     let facts = []
 
+    let user;
+    const unsubscribe = authState(auth).subscribe(u => user = u)
+    const login = () => {
+        auth.signInWithPopup(googleProvider)
+    }
+    const logout = () => {
+        auth.signOut()
+    }
+
 </script>
 
 
@@ -35,6 +44,7 @@
 	display: grid;
 	grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
     gap: 1rem;
+    width: 80%;
 }
 
 #fact {

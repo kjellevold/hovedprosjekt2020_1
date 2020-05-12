@@ -9,6 +9,7 @@
   export let url = "";
 
   let user;
+  
   const unsubscribe = authState(auth).subscribe(u => user = u)
   const login = () => {
       auth.signInWithPopup(googleProvider)
@@ -34,7 +35,7 @@
           </div>
       </div>
     {:else}
-		<div id="header">
+    <div id="header">
       <img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
       <Link to="/">Sustainability Goals</Link>
         <button id="logIn" on:click={login}>Logg inn</button>

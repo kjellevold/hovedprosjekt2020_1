@@ -11,7 +11,6 @@
 
     onMount( () => {
         factDB = db.collection("factDB")
-        
     })
 
     // Legg til fakta
@@ -44,6 +43,7 @@
 
 </script>
 
+
 {#if editmode}
     <div>
         <input bind:value={data.fact} placeholder="Write a fact">           
@@ -57,4 +57,5 @@
         <button on:click={deleteFact}>Delete</button>
     </div>
 {/if}
+
 
