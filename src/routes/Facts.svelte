@@ -1,8 +1,11 @@
 
 <script>
     import Fact from "./../components/Fact.svelte"
+    import FactTo from "./../components/FactTo.svelte"
     import {onMount} from "svelte"
     import {db} from "./../firebase.js"
+    import {user} from "./../components/_store.js"
+   
 
     let factDB;
 
@@ -14,20 +17,38 @@
     })
 
     let facts = []
-
+    
 </script>
 
 
+ 
 <h1>Not so funfacts</h1>
+
 <div id="gridFact">
-    {#each facts as fact}
-        <div id="fact">
-           <Fact id={fact.id} data={fact.data()} />
-        </div>
+    {#if $user}
+
+        {#each facts as fact}
+            <div id="fact">
+                <Fact id={fact.id} data={fact.data()} />
+            </div>
+        {:else}
+            <div>Loading...</div>
+        {/each}
+
     {:else}
-        <div>Loading...</div>
-    {/each}
+
+        {#each facts as fact}
+            <div id="fact">
+                <FactTo id={fact.id} data={fact.data()} />
+            </div>
+        {:else}
+            <div>Loading...</div>
+        {/each}
+        
+    {/if}
 </div>
+
+
 
 <style>
 h1 {
