@@ -1,6 +1,7 @@
 <script>
     import {onMount} from "svelte"
     import {db} from "./../firebase.js"
+    import Post from './Post.svelte'
 
     let html = []
     export let id
@@ -12,14 +13,13 @@
         artikler = db.collection("artikler")
     })
 
-    let artikkelSide = data.id
 
 </script>
 
-<div on:click={ () => artikkelSide } id={id}>
-    <img src={data.img} alt="">    
-    <h3>{data.title}</h3>
-</div>
+    <div id={id}>
+        <img src={data.img} alt="">    
+        <h3>{data.title}</h3>
+    </div>
 
 <style>
     div {
