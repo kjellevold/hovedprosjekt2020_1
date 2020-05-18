@@ -20,6 +20,6 @@
     "rxfire": "^3.9.15",
     "rxjs": "^6.5.4",
     "sirv-cli": "^0.4.4",
-    "svelte-routing": "^1.4.1"
+    "svelte-routing": "^1.4.2"
   }
 }

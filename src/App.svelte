@@ -1,8 +1,8 @@
 <script>
-  import { Router, Link, Route } from "svelte-routing";
+  import { Router, Link, Route } from "svelte-routing"
   import {auth, googleProvider} from "./firebase.js"
   import {authState} from "rxfire/auth"  
-  import Home from "./routes/Home.svelte";
+  import Home from "./routes/Home.svelte"
   import Blog from "./routes/Blog.svelte"
   import Facts from "./routes/Facts.svelte"
   import { user } from './components/_store.js'
@@ -19,16 +19,13 @@
 
 </script>
 
+
 <Router url="{url}">
   <nav>
-    <!-- <div id="header">
-      <img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
-      <Link to="/">Sustainability Goals</Link>
-    </div> -->
     {#if $user}
       <div id="header">
         <img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
-        <Link to="/">Sustainability Goals</Link>
+        <Link to="Home">Sustainability Goals</Link>
           <div id="user">
             <img id="imgProfil" src={$user.photoURL} alt="meg"/>
             <button id="logOut" on:click={logout}>Logg ut</button>
@@ -37,7 +34,7 @@
     {:else}
       <div id="header">
         <img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
-        <Link to="/">Sustainability Goals</Link>
+        <Link to="Home">Sustainability Goals</Link>
         <button id="logIn" on:click={login}>Logg inn</button>
 		  </div>
     {/if}
