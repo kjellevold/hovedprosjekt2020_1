@@ -65,7 +65,6 @@
 
     #artikkel {
         height: 250px;
-
     }
 
 </style>

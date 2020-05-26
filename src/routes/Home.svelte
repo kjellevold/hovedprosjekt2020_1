@@ -18,6 +18,7 @@
 
 
 {#if whatPage == 1}
+
 	<div id="main">
 		<img id="susEarth" alt="susLogo" src='./artikkelBilder/img/sdgsEarth1.png' />
 		<img id="susGoals" alt="susLogo" src='./artikkelBilder/img/sdgsGoals1.png' />

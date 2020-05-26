@@ -6,20 +6,16 @@ console.log(data)
 </script>
 
 <!-- så nå er det bare å legge ut dataen som du vil -->
-
-<h1>{data.title}</h1>
-{@html data.html}<!-- sånn :) -->
+<div id="artikkel">
+	<h1>{data.title}</h1>
+	{@html data.html}<!-- sånn :) -->
+</div>
 
 
 <style>
-	html {
-		width: 80%;
+	#artikkel {
+		max-width: 60%;
 	}
-
-	img {
-		width: 50%;
-	}
-
 
 
 </style>

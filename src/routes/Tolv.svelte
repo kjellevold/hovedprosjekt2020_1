@@ -84,7 +84,7 @@
         }
 
         img {
-            width: 100%;
+            width: 200%;
             border: none;
             display: flex;
             align-items: center;
