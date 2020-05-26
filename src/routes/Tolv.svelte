@@ -5,6 +5,7 @@
 <script>
     import Facts from './Facts.svelte'
     import Blog from './Blog.svelte'
+    import Maalet from './Maalet.svelte'
 
     let whatPage = 1
 
@@ -15,6 +16,7 @@
         <h1>12 Ansvarlig forbruk og produksjon</h1>
         <button on:click={ () => whatPage = 2 }>FunFacts</button>
         <button on:click={ () => whatPage = 3 }>Blog</button>
+        <button on:click={ () => whatPage = 4 }>Målet</button>
     </div>
 
     <div id="container">
@@ -28,6 +30,10 @@
 
 {#if whatPage == 3}
     <Blog />
+{/if}
+
+{#if whatPage == 4}
+    <Maalet />
 {/if}
 
 
