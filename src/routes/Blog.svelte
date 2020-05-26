@@ -3,6 +3,7 @@
     import {onMount} from "svelte"
     import {db} from "./../firebase.js"
     import Artikkel from "./../components/Artikkel.svelte"
+    import Post from './../components/Post.svelte'
     
     let artikler = []
     let artikkelDB
@@ -17,23 +18,41 @@
     let img = ""
     let tile = ""
     let id = ""
+    let clicked = false
+    let infoArr = []
+    /* Du får endre navn på variablene senere haha */
+    const test = (info) => {
+        infoArr = info
+        clicked = true
+    }
 
+    const back = () => {
+        clicked = false
+    }
+    /* nå må du ha en variabel som du lagrer artikkel.data() i. Den skal du sende til post */
 </script>
 
    
 <h1>Nyeste artikler</h1>
-<!-- <Artikkel img={artikler.data().img} /> -->
 
+{#if !clicked}
 <div id="artikkelGrid">
     {#each artikler as artikkel}
-        <div id="artikkel">
-            <Artikkel id={artikkel.id} data={artikkel.data()} />
+        <div on:click={()=>test(artikkel.data())} id="artikkel">
+            <Artikkel data={artikkel.data()} /><!-- vil foreslå å sende hele objektet -->
         </div>
     {:else}
         <div>Loading...</div>
     {/each}
 </div>
+{/if}
 
+{#if clicked}
+    <p on:click={back} >Back</p>
+    <!-- sp du kan egentlig sette den inn her sammen med Post -->
+    <!-- også legge til en on click som kjører en funksjon som endrer på clicked variabelen -->
+    <Post data={infoArr} />
+{/if}
 
 <style>
     #artikkelGrid {

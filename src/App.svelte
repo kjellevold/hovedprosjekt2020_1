@@ -20,7 +20,6 @@
 
 </script>
 
-
 <Router url="{url}">
   <nav>
     {#if $user}
