@@ -5,6 +5,7 @@ html, body {
 	margin: 0;
 }
 
+
 body {
 	color: #333;
 	margin: 0;
@@ -53,71 +54,78 @@ button:focus {
 	border-color: #666;
 }
 
-
-
-
-/*        HEADER        */
-#header {
-	height: 100px;
-	margin: -10px;
-	padding-top: 20px;
-	padding-left: 30px;
-	padding-right: 30px;
-	background-color: #6B98D0;
-	color: white;
-	display: block;
-	float: none;
+main {
+	margin: 0 auto;
 }
 
-#logo {
-	margin: 15px;
-	margin-top: 20px;
-	width: 5%;
-	max-width: 500px;
-	float: left;
+main > #artikkel {
+	max-width: 100%;
+	margin: 0 auto;
+
+}
+main > #artikkel > img {
+	width: 100%;
 }
 
-#sdg {
-	width: 3%;
-	margin: 20px;
-	float: right;
-	margin-top: 30px;
-	float: right;
-}
+@media only screen and (max-width: 1800px) {
 
-a {
-	color: white;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	font-size: 1.5rem;
-	text-decoration: none;
-	width: 30px;
-	padding: 1rem;
-	float: left;
-}
 
-/* USER */
-#imgProfil {
-	border-radius: 50%;
-	float: right;
-	width: 5%;
-	margin-top: 20px;
-}
+	/*        HEADER        */
+	#header {
+		width: 97%;
+		height: 100px;
+		margin: -10px;
+		padding-top: 20px;
+		padding-left: 30px;
+		padding-right: 30px;
+		background-color: rgb(53, 53, 53);
+		color: white;
+		display: block;
+		float: none;
+	}
 
-#user > button {
-	display: block;
-	float: right;	
-	display: block;
-	float: right;
-	font-size: 10px;
-	margin-top: 40px;
-	margin-right: 5px;
-}
+	#logo {
+		margin: 15px;
+		margin-top: 15px;
+		width: 5%;
+		max-width: 500px;
+		float: left;
+	}
 
-#logIn {
-	display: block;
-	float: right;
-	font-size: 10px;
-	margin-top: 50px;
+	a {
+		color: white;
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		font-size: 1.5rem;
+		text-decoration: none;
+		margin-top: 10px;
+		padding: 1rem;
+		float: left;
+	}
+
+	/* USER */
+	#imgProfil {
+		border-radius: 50%;
+		float: right;
+		width: 5%;
+		margin-top: 20px;
+	}
+
+	#user > button {
+		display: block;
+		float: right;	
+		display: block;
+		float: right;
+		font-size: 10px;
+		margin-top: 40px;
+		margin-right: 5px;
+	}
+
+	#logIn {
+		display: block;
+		float: right;
+		font-size: 10px;
+		margin-top: 50px;
+	}
 }
 
 

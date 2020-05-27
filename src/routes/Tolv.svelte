@@ -38,13 +38,13 @@
 
 
 <style>
-    @media screen and (max-width: 1300px) {
+    /* @media screen and (max-width: 1300px) {
 
         #tolvHeader {
             position: absolute;
             display: grid;
             grid-template-columns: 3fr 1fr 1fr;
-            width: 100%;
+            
         }
 
         h1 {
@@ -84,7 +84,6 @@
         }
 
         img {
-            width: 200%;
             border: none;
             display: flex;
             align-items: center;
@@ -108,7 +107,7 @@
 
         h1 {
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            /* color: #D08C25; */
+            
             color: black;
             padding: 10px;
             margin-bottom: 30px;
@@ -147,5 +146,5 @@
         }
 
     }
-
+ */
 </style>

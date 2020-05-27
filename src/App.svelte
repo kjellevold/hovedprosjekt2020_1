@@ -1,11 +1,12 @@
 <script>
-  import { Router, Link, Route } from "svelte-routing"
+  import { Router, Link, Route, navigate } from "svelte-routing"
   import {auth, googleProvider} from "./firebase.js"
   import {authState} from "rxfire/auth"  
   import Home from "./routes/Home.svelte"
   import Blog from "./routes/Blog.svelte"
   import Facts from "./routes/Facts.svelte"
   import { user } from './components/_store.js'
+  import { createEventDispatcher } from "svelte";
 
 
   const unsubscribe = authState(auth).subscribe(u => user.set(u))
@@ -18,15 +19,20 @@
 
   export let url = ""
 
+
 </script>
 
 
 <Router url="{url}">
+
   <nav>
     {#if $user}
       <div id="header">
         <img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
-        <Link to="/">Sustainability Goals</Link>
+        
+        <Link id="headerTxt" to="/">12 Ansvarlig forbruk og produksjon</Link>
+
+
           <div id="user">
             <img id="imgProfil" src={$user.photoURL} alt="meg"/>
             <button id="logOut" on:click={logout}>Logg ut</button>
@@ -34,14 +40,19 @@
       </div>
     {:else}
       <div id="header">
-        <img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
-        <Link to="/">Sustainability Goals</Link>
+       <img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
+       
+        <Link id="headerTxt" to="/">12 Ansvarlig forbruk og produksjon</Link>
+
+
         <button id="logIn" on:click={login}>Logg inn</button>
 		  </div>
     {/if}
   </nav>
-  
+
   <div>
     <Route path="/"><Home /></Route>
   </div>
+
+
 </Router>

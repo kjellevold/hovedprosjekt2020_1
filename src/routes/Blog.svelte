@@ -33,9 +33,10 @@
 </script>
 
    
-<h1>Nyeste artikler</h1>
+
 
 {#if !clicked}
+<h1>Nyeste artikler</h1>
 <div id="artikkelGrid">
     {#each artikler as artikkel}
         <div on:click={()=>test(artikkel.data())} id="artikkel">
@@ -48,7 +49,7 @@
 {/if}
 
 {#if clicked}
-    <p on:click={back} >Back</p>
+    <p on:click={back}>Back</p>
     <!-- sp du kan egentlig sette den inn her sammen med Post -->
     <!-- også legge til en on click som kjører en funksjon som endrer på clicked variabelen -->
     <Post data={infoArr} />
@@ -67,5 +68,12 @@
         height: 250px;
     }
 
+    p {
+        border: .5px solid black;
+        border-radius: 10%;
+        text-align: center;
+        padding: 5px;
+        width: 40px;
+    }
 </style>
 

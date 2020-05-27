@@ -12,7 +12,7 @@ fremtidige økonomiske, miljømessige og sosiale kostnader, styrke
 økonomisk konkurranseevne og redusere fattigdom.
 På nåværende tidspunkt øker materialforbruket av naturressurser, spesielt
 i Øst-Asia. Land fortsetter også å takle utfordringer knyttet til luft, vann og
-jordforurensning.
+jordforurensning.<br/>
 Siden bærekraftig forbruk og produksjon tar sikte på å “gjøre mer og bedre
 med mindre”, kan nettomsorgsgevinstene fra økonomiske aktiviteter øke
 ved å redusere ressursbruk, nedbrytning og forurensning gjennom hele
