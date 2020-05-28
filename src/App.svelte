@@ -5,6 +5,7 @@
   import Home from "./routes/Home.svelte"
   import Blog from "./routes/Blog.svelte"
   import Facts from "./routes/Facts.svelte"
+  import Tolv from "./routes/Tolv.svelte"
   import { user } from './components/_store.js'
   import { createEventDispatcher } from "svelte";
 
@@ -30,7 +31,7 @@
       <div id="header">
         <img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
         
-        <Link id="headerTxt" to="/">12 Ansvarlig forbruk og produksjon</Link>
+        <Link to="/">12 Ansvarlig forbruk og produksjon</Link>
 
 
           <div id="user">
@@ -42,7 +43,7 @@
       <div id="header">
        <img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
        
-        <Link id="headerTxt" to="/">12 Ansvarlig forbruk og produksjon</Link>
+        <Link to="/">12 Ansvarlig forbruk og produksjon</Link>
 
 
         <button id="logIn" on:click={login}>Logg inn</button>
@@ -51,7 +52,7 @@
   </nav>
 
   <div>
-    <Route path="/"><Home /></Route>
+    <Route path="/"><Tolv /></Route>
   </div>
 
 

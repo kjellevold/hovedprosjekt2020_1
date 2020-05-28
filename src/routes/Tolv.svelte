@@ -6,22 +6,51 @@
     import Facts from './Facts.svelte'
     import Blog from './Blog.svelte'
     import Maalet from './Maalet.svelte'
+    /* import Map from './Map.svelte' */
+
 
     let whatPage = 1
+
+
+    let time = 0
+    let volume = 0
+    let duration;
+    let paused = true
+    let showColntrols = true
+    let showControldTimeout
+    let showTmg = false
+    let imgSrc
+
+   
 
 </script>
 
 {#if whatPage == 1}
     <div id="tolvHeader">
-        <h1>12 Ansvarlig forbruk og produksjon</h1>
+        <!-- <h1>12 Ansvarlig forbruk og produksjon</h1> -->
         <button on:click={ () => whatPage = 2 }>FunFacts</button>
         <button on:click={ () => whatPage = 3 }>Blog</button>
         <button on:click={ () => whatPage = 4 }>Målet</button>
+        <!-- <button on:click={ () => whatPage = 5 }>Kart</button> -->
+    </div>
+
+    <div id="bgVideo">
+        <!-- src="https://www.youtube.com/embed/79bn2Clobrc" -->
+        <video 
+        src="https://vimeo.com/397563603"
+        id="video"
+        bind:currentTime={time}
+        bind:duration
+        bind:volume
+        bind:paused>
+        </video>
     </div>
 
     <div id="container">
         <img id="bigImg" alt="forsideImg" src='./artikkelBilder/img/bilde2.jpg' />
     </div>
+
+    <!-- <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/397563603?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> -->
 {/if}
 
 {#if whatPage == 2}
@@ -36,36 +65,42 @@
     <Maalet />
 {/if}
 
+<!-- {#if whatPage == 5}
+    <Map />
+{/if} -->
+
 
 <style>
-    /* @media screen and (max-width: 1300px) {
+    div {
+        position: relative;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 2000px) {
 
         #tolvHeader {
             position: absolute;
             display: grid;
-            grid-template-columns: 3fr 1fr 1fr;
-            
-        }
-
-        h1 {
-            padding: 10px;
-            padding-left: 20px;
-            margin-top: 20px;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            color: white;
-            float: left;
-            z-index: 2;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin-left: 5%;
         }
 
         button {
-            height: 50px;
-            width: 70%;
-            margin: 1%;
-            margin-top: 30px;
             float: right;
             border: none;
             color: black;
             z-index: 2;
+            height: 50px;
+            width: 100px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 40px;
+            border: none;
+            float: end;
+
         }
 
          #container {
@@ -105,14 +140,6 @@
             z-index: 2;
         }
 
-        h1 {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            
-            color: black;
-            padding: 10px;
-            margin-bottom: 30px;
-        }
-
         button {
             height: 50px;
             width: 65%;
@@ -146,5 +173,5 @@
         }
 
     }
- */
+
 </style>
