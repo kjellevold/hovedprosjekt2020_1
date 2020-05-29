@@ -57,3 +57,6 @@
 
 
 </Router>
+<!-- legger bare til en backgrunnsfarge for å se diven lettere -->
+<style>
+</style>

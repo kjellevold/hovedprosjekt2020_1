@@ -6,7 +6,7 @@
     import Facts from './Facts.svelte'
     import Blog from './Blog.svelte'
     import Maalet from './Maalet.svelte'
-    import Fabric from './Fabric.svelte'
+    /* import Fabric from './Fabric.svelte' */
 
 
     let whatPage = 1
@@ -31,15 +31,26 @@
         <button on:click={ () => whatPage = 2 }>FunFacts</button>
         <button on:click={ () => whatPage = 3 }>Blog</button>
         <button on:click={ () => whatPage = 4 }>Målet</button>
-        <button on:click={ () => whatPage = 5 }>Kart</button>
+        <!-- <button on:click={ () => whatPage = 5 }>Kart</button> -->
     </div>
 
+        <!-- src="https://www.youtube.com/embed/79bn2Clobrc" -->
+    <div id="bgVideo">
+        <video 
+        src="https://vimeo.com/397563603"
+        id="video"
+        bind:currentTime={time}
+        bind:duration
+        bind:volume
+        bind:paused>
+        </video>
+    </div>
 
-    <div style="padding:56.25% 0 0 0;position:relative;">
-        <iframe src="https://player.vimeo.com/video/397563603?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" ></iframe>
-    </div><script src="https://player.vimeo.com/api/player.js"></script>
+    <div id="container">
+        <img id="bigImg" alt="forsideImg" src='./artikkelBilder/img/bilde2.jpg' />
+    </div>
 
-
+    <!-- <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/397563603?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> -->
 {/if}
 
 {#if whatPage == 2}
@@ -54,9 +65,9 @@
     <Maalet />
 {/if}
 
-{#if whatPage == 5}
-    <Fabric />
-{/if}
+<!-- {#if whatPage == 5}
+    <Map />
+{/if} -->
 
 
 <style>
@@ -64,7 +75,15 @@
         position: relative;
     }
 
-   
+    video {
+        width: 100%;
+    }
+    #tolvHeader{
+        background-color: blue
+    }
+    #bgVideo{
+        background-color: green
+    }
     @media screen and (max-width: 2000px) {
 
         #tolvHeader {
@@ -89,7 +108,7 @@
 
         }
 
-        /*  #container {
+         #container {
             margin: 0;
             margin-top: 20px;
             width: 1300px;
@@ -110,7 +129,7 @@
             align-items: center;
             justify-content: center;
             opacity: 60%;
-        } */
+        }
 
     }
 
@@ -135,7 +154,7 @@
             float: end;
         }
 
-        /* #container {
+        #container {
             margin: 0;
             width: 390px;
             height: 700px;
@@ -156,7 +175,7 @@
             align-items: center;
             justify-content: center;
             opacity: 60%;
-        } */
+        }
 
     }
 
