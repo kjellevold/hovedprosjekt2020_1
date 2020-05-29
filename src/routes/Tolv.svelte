@@ -6,7 +6,7 @@
     import Facts from './Facts.svelte'
     import Blog from './Blog.svelte'
     import Maalet from './Maalet.svelte'
-    /* import Map from './Map.svelte' */
+    /* import Fabric from './Fabric.svelte' */
 
 
     let whatPage = 1
@@ -34,10 +34,10 @@
         <!-- <button on:click={ () => whatPage = 5 }>Kart</button> -->
     </div>
 
+        <!-- src="https://vimeo.com/397563603" -->
     <div id="bgVideo">
-        <!-- src="https://www.youtube.com/embed/79bn2Clobrc" -->
         <video 
-        src="https://vimeo.com/397563603"
+        src="https://www.youtube.com/embed/79bn2Clobrc"
         id="video"
         bind:currentTime={time}
         bind:duration
