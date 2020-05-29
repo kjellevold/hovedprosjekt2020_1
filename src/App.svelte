@@ -10,13 +10,13 @@
   import { createEventDispatcher } from "svelte";
 
 
-  const unsubscribe = authState(auth).subscribe(u => user.set(u))
+  /* const unsubscribe = authState(auth).subscribe(u => user.set(u))
   const login = () => {
     auth.signInWithPopup(googleProvider)
   }
   const logout = () => {
     auth.signOut()
-  }
+  } */
 
   export let url = ""
 
@@ -26,7 +26,7 @@
 
 <Router url="{url}">
 
-  <nav>
+  <!-- <nav>
     {#if $user}
       <div id="header">
         <img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
@@ -49,7 +49,7 @@
         <button id="logIn" on:click={login}>Logg inn</button>
 		  </div>
     {/if}
-  </nav>
+  </nav> -->
 
   <div>
     <Route path="/"><Tolv /></Route>

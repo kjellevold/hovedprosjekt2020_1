@@ -66,6 +66,7 @@ main > #artikkel > img {
 	width: 100%;
 }
 
+
 @media only screen and (max-width: 1800px) {
 
 
@@ -77,7 +78,7 @@ main > #artikkel > img {
 		padding-top: 20px;
 		padding-left: 30px;
 		padding-right: 30px;
-		background-color: rgb(53, 53, 53);
+		/* background-color: rgb(53, 53, 53); */
 		color: white;
 		display: block;
 		float: none;
@@ -89,7 +90,9 @@ main > #artikkel > img {
 		width: 5%;
 		max-width: 500px;
 		float: left;
+		z-index: 2;
 	}
+
 
 	a {
 		color: white;
@@ -99,6 +102,13 @@ main > #artikkel > img {
 		margin-top: 10px;
 		padding: 1rem;
 		float: left;
+	}
+
+	#videoBg {
+		position: relative;
+		top: -100px;
+		z-index: 1;
+		opacity: 80%;
 	}
 
 	/* USER */

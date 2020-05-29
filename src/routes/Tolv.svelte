@@ -3,27 +3,58 @@
 </svelte:head>
 
 <script>
+    import { user } from '../components/_store.js'
+    import { Router, Link, Route, navigate } from "svelte-routing"
+    import {auth, googleProvider} from "../firebase.js"
+    import {authState} from "rxfire/auth"  
     import Facts from './Facts.svelte'
     import Blog from './Blog.svelte'
     import Maalet from './Maalet.svelte'
     import Fabric from './Fabric.svelte'
 
 
+    const unsubscribe = authState(auth).subscribe(u => user.set(u))
+    const login = () => {
+        auth.signInWithPopup(googleProvider)
+    }
+    const logout = () => {
+        auth.signOut()
+    }
+
     let whatPage = 1
 
 
-    let time = 0
+    /* let time = 0
     let volume = 0
     let duration;
     let paused = true
     let showControls = true
     let showControlsTimeout
     let showTmg = false
-    let imgSrc
+    let imgSrc */
 
    
 
 </script>
+<main>
+
+
+{#if $user}
+    <div id="header">
+        <img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
+        <Link to="/">12 Ansvarlig forbruk og produksjon</Link>
+            <div id="user">
+                <img id="imgProfil" src={$user.photoURL} alt="meg"/>
+                <button id="logOut" on:click={logout}>Logg ut</button>
+            </div>
+    </div>
+{:else}
+    <div id="header">
+        <img id="logo" alt='logo' src='./artikkelBilder/img/FN_hvit.png'>
+        <Link to="/">12 Ansvarlig forbruk og produksjon</Link>
+        <button id="logIn" on:click={login}>Logg inn</button>
+    </div>
+{/if}
 
 {#if whatPage == 1}
     <div id="tolvHeader">
@@ -35,12 +66,12 @@
     </div>
 
 
-    <div style="padding:56.25% 0 0 0;position:relative;">
+    <div id="videoBg" style="padding:56.25% 0 0 0;position:relative;">
         <iframe src="https://player.vimeo.com/video/397563603?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" ></iframe>
     </div><script src="https://player.vimeo.com/api/player.js"></script>
-
-
 {/if}
+
+</main>
 
 {#if whatPage == 2}
     <Facts />
@@ -60,6 +91,12 @@
 
 
 <style>
+
+    main {
+        background-color: rgb(53, 53, 53);
+
+    }
+
     div {
         position: relative;
     }
@@ -87,6 +124,11 @@
             border: none;
             float: end;
 
+        }
+
+        iframe {
+            position: relative;
+            top: -30px;
         }
 
         /*  #container {
