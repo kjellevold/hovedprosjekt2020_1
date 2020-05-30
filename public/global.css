@@ -1,6 +1,6 @@
 html, body {
 	position: relative;
-	width: 100%;
+	max-width: 100%;
 	height: 100%;
 	margin: 0;
 }
@@ -35,6 +35,9 @@ input[type="range"] {
 	height: 0;
 }
 
+button {
+	cursor: pointer;
+}
 
 button:disabled {
 	color: #999;
@@ -123,11 +126,10 @@ main > #artikkel > img {
 	}
 } */
 
-
 @media only screen and (max-width: 400px) {
 	html, body {
 		position: relative;
-		width: 100%;
+		max-width: 100%;
 		height: 100%;
 		margin: 0;
 	}
@@ -143,7 +145,7 @@ main > #artikkel > img {
 		width: 50px;
 		color: #D08C25;
 		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-		font-size: 1.4rem;
+		font-size: 1.7rem;
 		text-decoration: none;
 		margin-top: 10px;
 		padding: 1rem;
@@ -151,4 +153,86 @@ main > #artikkel > img {
 		z-index: 3;
 	  }
 
-} 
+	#tolvHeader {
+	  position: absolute;
+	  display: grid;
+	  grid-template-rows: 1fr 1fr 1fr 1fr;
+	  width: 100%;
+	  height: 50%;
+	  text-align: center;
+	  justify-content: center;
+	  z-index: 3;
+	  bottom: 10px;
+	}
+
+	#tolvHeader > button {
+	  	height: 50px;
+	  	width: 75%;
+	  	border: none;
+	  	background-color: #D08C25;
+	  	color: black;
+	  	z-index: 3;
+		font-size: 1rem;
+		margin-top: 5px;
+		padding: 20px 30px 20px 30px;
+	}
+
+	#videoBg {
+	  position: absolute;
+	  transform: rotate(-90deg);
+	  z-index: 1;
+	}
+
+	iframe {
+	  position: relative;
+	}
+
+	#logo {
+		margin: 15px;
+		margin-top: 55px;
+		width: 10%;
+		max-width: 500px;
+		float: left;
+	  }
+
+	  #header > #logIn {
+	  position: relative;
+	  z-index: 3;
+	  padding: 3px;
+	}
+
+	  /* USER */
+	#imgProfil {
+	  border-radius: 50%;
+	  float: right;
+	  width: 10%;
+	  margin-top: 50px;
+	  margin-right: 20px;
+	}
+
+	#header > button {
+		height: 50px;
+		width: 75%;
+		border: none;
+		background-color: #D08C25;
+		color: black;
+		z-index: 3;
+	  	font-size: 1rem;
+	  	margin-top: 5px;
+	  	padding: 20px 30px 20px 30px;
+  	}
+
+	#user > button {
+	  	background-color: black;
+	  	color: white;
+		display: block;
+		float: right;	
+		font-size: 10px;
+		margin-right: 5px;
+		margin-top: 60px;
+	}
+
+	  
+}
+
+   

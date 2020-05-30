@@ -36,14 +36,14 @@
             <Link to="/">12 Ansvarlig forbruk og produksjon</Link>
                 <div id="user">
                     <img id="imgProfil" src={$user.photoURL} alt="meg"/>
-                    <button id="logOut" on:click={logout}>Logg ut</button>
+                    <button id="logOutBtn" on:click={logout}>Logg ut</button>
                 </div>
         </div>
     {:else}
         <div id="header">
             <img id="logo" alt='logo' src='./artikkelBilder/img/standard_fn.png'>
             <Link to="/">12 Ansvarlig forbruk og produksjon</Link>
-            <button id="logIn" on:click={login}>Logg inn</button>
+            <button id="logInBtn" on:click={login}>Logg inn</button>
         </div>
     {/if}
 
@@ -123,97 +123,4 @@
 
     } */
 
-    @media screen and (max-width: 600px) {
-        #tolvHeader {
-          position: absolute;
-          display: grid;
-          grid-template-rows: 1fr;
-          float: end;
-          width: 100%;
-          height: 50%;
-          text-align: center;
-          justify-content: center;
-          z-index: 3;
-        }
-
-        button {
-          height: 50px;
-          width: 65%;
-          margin-left: auto;
-          margin-right: auto;
-          border: none;
-          float: end;
-          background-color: #D08C25;
-          color: black;
-          z-index: 3;
-          height: 50px;
-          width: 100px;
-          margin-left: 10px;
-          margin-right: 10px;
-          margin-top: 40px;
-          float: end;
-
-        }
-
-        
-
-        #videoBg {
-          position: absolute ;
-          transform: rotate(-90deg);
-          min-width: 100%;
-          z-index: 1;
-          padding: -56.25% 0 0 0;
-        }
-
-        iframe {
-          /* transform: rotate(-90deg); */
-          
-          position: absolute;
-        }
-
-        #logo {
-	        margin: 15px;
-	        margin-top: 55px;
-	        width: 10%;
-	        max-width: 500px;
-	        float: left;
-	      }
-
-	      #header > #logIn {
-          position: relative;
-          z-index: 3;
-          padding: 3px;
-        }
-
-	      /* USER */
-	      #imgProfil {
-	      	border-radius: 50%;
-	      	float: right;
-	      	width: 10%;
-	      	margin-top: 50px;
-	      	margin-right: 20px;
-	      }
-
-	      #user > button {
-          background-color: black;
-          color: white;
-	      	display: block;
-	      	float: right;	
-	      	font-size: 10px;
-	      	margin-right: 5px;
-	      	margin-top: 60px;
-	      }
-
-	      #logIn {
-	      	display: block;
-	      	float: right;
-	      	font-size: 10px;
-	      	margin-right: 20px;
-	      	margin-top: 60px;
-	      }
-
-
-       
-
-    }
 </style>
