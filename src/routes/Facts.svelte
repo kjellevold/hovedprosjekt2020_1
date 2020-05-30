@@ -59,7 +59,7 @@ h1 {
 	display: grid;
 	grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
     gap: 1rem;
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
 }
 
