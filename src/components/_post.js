@@ -7,7 +7,7 @@ const posts = [
 			<p><b>Rana Plaza-kollapsen, hvor 1133 arbeidere døde, var ikke en ulykke. Det var en tragedie som kunne vært unngått hvis respekten for dem som syr klærne våre var større.</b></p>
 			<br/>
 
-			<img src="./../artikkelBilder/Rana2.png" alt="Rana2">
+			<img src="./artikkelBilder/Rana2.png" alt="Rana2">
 			
 			<br/><br/>
 			<p>24. oktober 2013 var det seks måneder siden elendige sikkerhetstiltak, luselønninger og mangel på faglige rettigheter i Bangladesh skapte medieoverskrifter og hjerteskjærende bilder verden over.</p>
@@ -98,13 +98,14 @@ const posts = [
 		slug: 'betydningen-av-frihet',
 		img: './artikkelBilder/Frihet1.png',
 		html: `
+			<br/><br/>
 			<p><b>Det fins fabrikker som er eid av tekstilarbeiderne selv. Det er ingen dans
 			på roser, men de har frihet og
 			verdighet. Les mer om hvordan det forandretlivet til flere hundre
 			thailandske tekstilarbeidere.</b></p>
 			<br/>
 
-			<img src="./../artikkelBilder/Frihet1.png" alt="Frihet1">
+			<img src="./../artikkelBilder/Frihet1.png" alt="Frihet1" style="width:300px;">
 			
 			<br/><br/>
 			<p>Hvor navnet kommer fra? Try Arm betyr «sterk arm», sier Vita Matcachat, en av arbeiderne – og eierne – på undertøysfabrikken Try Arm, og krummer armen sin mens hun smiler.<br/>

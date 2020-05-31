@@ -20,7 +20,6 @@
     let id = ""
     let clicked = false
     let infoArr = []
-    /* Du får endre navn på variablene senere haha */
     const test = (info) => {
         infoArr = info
         clicked = true
@@ -29,18 +28,17 @@
     const back = () => {
         clicked = false
     }
-    /* nå må du ha en variabel som du lagrer artikkel.data() i. Den skal du sende til post */
-</script>
+    </script>
 
    
 
 
 {#if !clicked}
-<h1>Nyeste artikler</h1>
+<h2>Nyeste artikler</h2>
 <div id="artikkelGrid">
     {#each artikler as artikkel}
         <div on:click={()=>test(artikkel.data())} id="artikkel">
-            <Artikkel data={artikkel.data()} /><!-- vil foreslå å sende hele objektet -->
+            <Artikkel data={artikkel.data()} />
         </div>
     {:else}
         <div>Loading...</div>
@@ -49,18 +47,22 @@
 {/if}
 
 {#if clicked}
-    <p on:click={back}>Back</p>
-    <!-- sp du kan egentlig sette den inn her sammen med Post -->
-    <!-- også legge til en on click som kjører en funksjon som endrer på clicked variabelen -->
+    <div id="backBtn">
+        <p on:click={back}> - Back</p>
+    </div>
     <Post data={infoArr} />
 {/if}
 
 <style>
+   
+@media only screen and (max-width: 400px) {
+
     #artikkelGrid {
         display: grid;
 		grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
         gap: 1rem;
         width: 90%;
+        margin-top: 10px;
         margin: 0 auto;
     }
 
@@ -68,12 +70,25 @@
         height: 250px;
     }
 
+    #backBtn {
+        position: relative;
+        margin: 5px;
+        height: 20px;
+    }
+
+    h2 {
+        width: 200px;
+    }
+
     p {
-        border: .5px solid black;
-        border-radius: 10%;
+        position: relative;
+        top: -30px;
+        left: 2px;
         text-align: center;
         padding: 5px;
-        width: 40px;
+        width: 50px;
+        margin: 20px;
     }
+}
 </style>
 

@@ -21,8 +21,7 @@
 </script>
 
 
- 
-<h1>Not so funfacts</h1>
+<h2>Not so funfacts</h2>
 
 <div id="gridFact">
     {#if $user}
@@ -51,7 +50,9 @@
 
 
 <style>
-h1 {
+h2 {
+    width: 150px;
+    padding-top: 150px;
     margin-left: 20px;
 }
     
@@ -64,7 +65,7 @@ h1 {
 }
 
 #fact {
-    border: dashed 0.3rem black;
+    border: dashed 0.2rem #D08C25;
     padding: 1rem;
 }
 

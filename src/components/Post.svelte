@@ -15,8 +15,12 @@ export let data
 <style>
 
 	main {
-		max-width: 60%;
+		max-width: 90%;
+		margin: 5px;
+		justify-content: center;
 	}
+
+	
 
 
 </style>
