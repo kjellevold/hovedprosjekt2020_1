@@ -55,8 +55,6 @@
 
 <style>
    
-@media only screen and (max-width: 400px) {
-
     #artikkelGrid {
         display: grid;
 		grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
@@ -89,6 +87,20 @@
         width: 50px;
         margin: 20px;
     }
+
+@media ( min-width: 600px ) {
+    #artikkelGrid {
+        display: grid;
+        grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+        gap: 1rem;
+        width: 70%;
+    }
+    
+    h2 {
+            font-size: 2rem;
+            width: 15rem;
+        }
 }
+
 </style>
 

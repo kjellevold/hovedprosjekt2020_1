@@ -3,7 +3,7 @@
 	import MapMarker from '../components/MapMarker.svelte';
 </script>
 
-<p>Her ligger noen av tekstilfabrikkene .... </p>
+<p>Her ligger noen av tekstilfabrikkene  </p>
 
 <Map lat={23.260441} lon={87.026937} zoom={1.5}>
 	<MapMarker lat={26.765274} lon={75.833131} label="Fitpack Textile Mills Limited"/>
@@ -21,4 +21,7 @@
 		margin-left: 3px;
 	}
 
+@media (max-width: 600px) {
+	
+}
 </style>

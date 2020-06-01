@@ -32,6 +32,11 @@
 
 
 <style>
+
+/* @media only screen and (max-width: 400px) {
+	
+} */
+@media screen and (max-width: 400px) {
 	div {
 		position: absolute;
 		margin: 0 auto;
@@ -73,7 +78,7 @@
 
 
 
-	@media screen and (max-width: 400px) {
+	
 		
 		#main {
 			height: 80%;

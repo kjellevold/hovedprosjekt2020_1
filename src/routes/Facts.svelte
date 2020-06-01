@@ -50,24 +50,43 @@
 
 
 <style>
-h2 {
-    width: 150px;
-    padding-top: 150px;
-    margin-left: 20px;
-}
-    
-#gridFact {
-	display: grid;
-	grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
-    gap: 1rem;
-    width: 70%;
-    margin: 0 auto;
-}
+    h2 {
+        width: 150px;
+        padding-top: 150px;
+        margin-left: 20px;
+    }
 
-#fact {
-    border: dashed 0.2rem #D08C25;
-    padding: 1rem;
-}
+    #gridFact {
+        display: grid;
+    	grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+        gap: 1rem;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #fact {
+        border: dashed 0.2rem #D08C25;
+        padding: 1rem;
+    }
+
+    @media (min-width: 600px) {
+        h2 {
+            font-size: 2rem;
+            width: 15rem;
+        }
+
+        #gridFact {
+            display: grid;
+            grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        #fact {
+            border: dashed 0.3rem #D08C25;
+            font-size: 1rem;
+        }
+    }
+
 
 </style>
 

@@ -78,10 +78,11 @@
 
 
 <style>
+@media screen and (max-width: 400px) { 
     main {
         width: 90%;
         margin: 0 auto;
     }
-
+}
 
 </style>

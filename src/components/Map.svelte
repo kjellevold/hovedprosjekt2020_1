@@ -4,6 +4,7 @@
 	setContext(key, {
 		getMap: () => map
 	});
+	
 	export let lat;
 	export let lon;
 	export let zoom;
