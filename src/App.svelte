@@ -59,6 +59,7 @@
 
 <main>
    {#if whatPage == 1}
+   <Tolv />
         <div id="tolvHeader">
             <button on:click={ () => whatPage = 2 } transition:fade>FunFacts</button>
             <button on:click={ () => whatPage = 3 } transition:fade>Blog</button>

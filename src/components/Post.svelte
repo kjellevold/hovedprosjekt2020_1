@@ -6,7 +6,7 @@ export let data
 
 <main>
 	<div id="artikkel">
-		<h1>{data.title}</h1>
+		<h2>{data.title}</h2>
 		{@html data.html}
 	</div>
 </main>
@@ -20,6 +20,17 @@ export let data
 		justify-content: center;
 	}
 
+	h2 {
+		color: black;
+		font-size: 3rem;
+	}
+
+@media ( min-width: 600px ) {
+	main {
+		max-width: 70%;
+		margin: 2rem auto;
+	}
+}
 	
 
 

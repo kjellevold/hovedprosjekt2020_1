@@ -76,6 +76,7 @@ button:focus {
 	}
 
 	h1 {
+		cursor: pointer;
 		position: relative;
 		width: 220px;
 		color: #D08C25;
@@ -262,7 +263,7 @@ button:focus {
 	#tolvHeader > button {
 		position: relative;
 		height: 6rem;
-		top: 30rem;
+		top: 25rem;
 
 	}
 
