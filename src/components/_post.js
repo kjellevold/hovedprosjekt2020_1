@@ -7,7 +7,7 @@ const posts = [
 			<p><b>Rana Plaza-kollapsen, hvor 1133 arbeidere døde, var ikke en ulykke. Det var en tragedie som kunne vært unngått hvis respekten for dem som syr klærne våre var større.</b></p>
 			<br/>
 
-			<img src="./artikkelBilder/Rana2.png" alt="Rana2" style="width:60%;>
+			<img src="./artikkelBilder/Rana2.png" alt="Rana2">
 			
 			<br/><br/>
 			<p>24. oktober 2013 var det seks måneder siden elendige sikkerhetstiltak, luselønninger og mangel på faglige rettigheter i Bangladesh skapte medieoverskrifter og hjerteskjærende bilder verden over.</p>
@@ -22,7 +22,7 @@ const posts = [
 			<p>Rana Plaza-kollapsen var ikke en ulykke. Det var en tragedie som kunne vært unngått hvis respekten for dem som syr dine og mine klær var større.<br/>Liknende «ulykker» skjer nærmest ukentlig i form av gjentatte fatale branner, trapper som kollapser under byrden av tusenvis av arbeidere som strømmer inn og ut av fabrikklokalene og syersker som dør av elektriske sjokk fra gamle, slitte symaskiner.<br/> Hendelsene rammer ikke bare blindt og hensynsløst de som syr dine og mine klær. De renner også tilliten til den Bangladeshiske tekstilsektoren i senk, og svekker kleskjedenes omdømme.<br/><br/> Global og nasjonal fagbevegelse og frivillige organisasjoner, deriblant Clean Clothes Campaign som Framtiden i våre hender har et mangeårig og nært samarbeid med, har startet en prosess for å sikre kompensasjon til de pårørende og skadde etter kollapsen. Det eksisterer en metode for å regne ut størrelsen på kompensasjonen og hvilke aktører som må betale regningen for tragedien. Men kjeskjedene, blant dem Mango og Benetton, har foreløpig ikke åpnet pengesekken.<br/><br/> «Ulykker» i Bangladesh, Pakistan og India kjennetegnes alle av manglende engasjement fra kleskjedene: De har i årevis lukket øyene for kritikkverdige arbeidsforhold og tjent enorme summer på svært lave produksjonskostnader.</p>
 			<br/>
 			
-			<img src="./../artikkelBilder/Rana1.png" alt="Rana1" style="width:60%;>
+			<img src="./../artikkelBilder/Rana1.png" alt="Rana1">
 			
 			<br/><br/>
 			<h3>Håp</h3>
@@ -42,7 +42,7 @@ const posts = [
 			<p><b>Å dra til Bangladesh for å dokumentere og lære om prollemene og løsningene i tekstilsektoren, var målet for reisa. Her får du et innblikk i våre møter med tekstilarbeidere, fagforeningsledere og ofre – i en sektor preget av utrygge arbeidsforhold, lave lønninger, bruk av mennesker «på samlebånd», død og ulykker. Men også håp og endringsvilje.</b></p>
 			<br/>
 
-			<img src="./../artikkelBilder/Bangladesh2.png" alt="Bangladesh2" style="width:60%;>
+			<img src="./../artikkelBilder/Bangladesh2.png" alt="Bangladesh2">
 			
 			<br/><br/>
 
@@ -57,7 +57,7 @@ const posts = [
 			Dro videre til Tazreen-bygningen. Der har de ikke gjort noe siden brannen (ulykka skjedde i 2012). Bygningen står der fortsatt, knuste vinduer og sorte merker utenpå. Mange tekstilarbeidere brant inne pga. gitter på vinduene og stengte dører. 117 personer døde.</p>
 			<br/>
 			
-			<img src="./../artikkelBilder/Bangladesh1.png" alt="Bangladesh1" style="width:60%;>
+			<img src="./../artikkelBilder/Bangladesh1.png" alt="Bangladesh1">
 			
 			<br/><br/>
 			<h3>Dag 3: Jakt på locations</h3>
@@ -73,7 +73,7 @@ const posts = [
 			<p>Møtte Sultan (leder for labour studies). Snakket overordnet om problemene i tekstilsektoren. Snakket om at tekstilsektoren bare vokser og vokser, men at det ikke finnes et godt system for å håndtere utviklingen. Han mener løsningen på problemet er å legge press på de store selskapene. De må ta sikkerheten til arbeiderne på alvor. Møtte etterpå Amin for å snakke mer om hva vi kan gjøre for å bidra til ending i tekstilsektoren. Han snakket om viktigheten av å få med hjemmetekstilselskapene (de som selger sengetøy, håndklærne osv) til å underskrive «Accorden», en bindende sikkerhetsavtale mellom selskaper og fabrikker/ fagforeninger, som skal sikre arbeiderne en trygg arbeidshverdag. Accorden er et initiativ som ble satt i gang etter Rana Plaza-ulykka.</p>
 			<br/>
 
-			<img src="./../artikkelBilder/Bangladesh3.png" alt="Bangladesh3" style="width:60%;>
+			<img src="./../artikkelBilder/Bangladesh3.png" alt="Bangladesh3">
 
 			<h3>Dag 6: filme Anja på RP og Tazreen, møte med Tazreen-ofre og garveribesøk</h3>
 			<p>Vi dro først til Tazreen, den brannskadde tekstilfabrikken, for å filme bygningen og Anja. Var varmt, men Anja tok det fint. Filmet fra flere sider av bygget, fikk stort sett filme i fred. Kjørte videre for at jeg skulle få filme tekstilarbeidere som gikk ut for lunsj. Første sted var i en rolig gate. Så tok Zaeed oss med rett utenfor en stor fabrikk. Han sa det var ok å filme, så jeg gjorde det. Stod to vakter der som jagde oss bort. Flytta vi oss litt lenger ned i gata slik at vaktene ikke kunne se oss. Sigurd var litt redd for at dette var å pushe det for mye. Men det gikk heldigvis fint. Var ikke så redd der og da, men merka pulsen litt etterpå. Tok ut minnekortet av kameraet da noen politifolk passerte oss noen min etterpå. Just in case.<br/> På vei ut av boligområdet stoppet to tekstilarbeidere oss. De var overlevende fra Tazreen-ulykka (fabrikkbrannen fra 2012 med minst 112 døde og over 200 skadde). De tok oss med hjem til seg. Bodde i blikkskur, men ikke like trangt som i «slumområdet» som vi var i to dager i forveien. Mukta (35) fortalte om ulykka. Kvart på sju på kvelden gikk brannalarmen. Noen prøvde å gå ut, men ble hindra av fabrikkledelsen. Fikk beskjed om at en stor leveranse skulle være ferdig dagen etter, så de kunne ikke forlate fabrikken. Etter ti min gikk strømmen. Alt ble mørkt. Dørene var låst. Mukta jobbet i tredje etasje. Hoppet ut av et vindu hvor noen av mennene hadde klart å ødelegge gitteret som sperret folk inne (hoppa ned på et tak som stakk ut av 1.etg). Mange brant inne.<br/><br/> På veien hjem dro vi innom et område hvor de driver med garving av skinn. Måtte kjøre ut til et industriområde med mange uferdige bygninger. Garveriene har nylig flytta fra et sted inne i Dhaka til utenfor byen, pga de har fått kritikk for produksjonsforholdene. Var ganske vanvittig å se. Skinnene hang i taket og menn stod barbent i vann full av maling for å dyppe/vaske skinnene. Det var dunkelt og ufyselig. For en jævlig jobb. Tungt og helsefarlig.</p>
@@ -98,14 +98,13 @@ const posts = [
 		slug: 'betydningen-av-frihet',
 		img: './artikkelBilder/Frihet1.png',
 		html: `
-			<br/><br/>
 			<p><b>Det fins fabrikker som er eid av tekstilarbeiderne selv. Det er ingen dans
 			på roser, men de har frihet og
 			verdighet. Les mer om hvordan det forandretlivet til flere hundre
 			thailandske tekstilarbeidere.</b></p>
 			<br/>
 
-			<img src="./../artikkelBilder/Frihet1.png" alt="Frihet1" style="width:60%;">
+			<img src="./../artikkelBilder/Frihet1.png" alt="Frihet1">
 			
 			<br/><br/>
 			<p>Hvor navnet kommer fra? Try Arm betyr «sterk arm», sier Vita Matcachat, en av arbeiderne – og eierne – på undertøysfabrikken Try Arm, og krummer armen sin mens hun smiler.<br/>
@@ -168,7 +167,7 @@ const posts = [
 			er det nok?</b></p>
 			<br/>
 
-			<img src="./../artikkelBilder/grønnDrøm1.png" alt="grønnDrøm1" style="width:60%;>
+			<img src="./../artikkelBilder/grønnDrøm1.png" alt="grønnDrøm1">
 			
 			<br/><br/>
 			<p>Imidten av mai var jeg til stede på Copenhagen Fashion Summit. Dette er verdens største samling for såkalt bærekraftig mote og en arena der motebransjen kan diskutere de sosiale og miljømessige utfordringene industrien står ovenfor. Copenhagen Fashion Summit ble første gang arrangert i 2009, og har blitt en prestisjefylt konferanse med den danske kronprinsessen som beskytter. Blant deltakerne var alt fra store internasjonale kleskjeder som H&M, Nike og norske Varner-gruppen, til kjente designer-merker som Ganni og Stella McCartney. I tillegg var flere profilerte motebloggere og såkalte «influencere» til stede. Forretningsmodellen må utfordres Et av temaene på konferansen var sirkulær økonomi, der fokus lå på hvordan klesindustrien kan bidra til at klær ikke ender opp som avfall, men istedenfor gjenbrukes og resirkuleres i et lukket kretsløp. Det er dette H&M sikter til når de bruker begrepet «close the loop on fashion».<br/>
@@ -197,7 +196,7 @@ const posts = [
 			<p><b>«We believe in doing things the right way - simple as that. No hidden agenda, no cutting corners. Here’s how we craft each and every Christy Dawn dress.»</b></p>
 			<br/>
 
-			<img src="./../artikkelBilder/chrisDawn/Dawn2.png" alt="Dawn2" style="width:60%;>
+			<img src="./../artikkelBilder/chrisDawn/Dawn2.png" alt="Dawn2">
 			
 			<br/><br/>
 			<p>Hver Christy Dawn-kjole er laget av deadstock-stoff, noe som betyr at det var rester fra et større designhus. Mengder kan være begrenset, men utbetalingen er en bærekraftig materialekilde som ikke lenger skader miljøet.<br/><br/>
@@ -206,7 +205,7 @@ const posts = [
 			En tidligere modell og mote elsker Dawn ønsket å finne en måte å holde mote i sentrum av karrieren uten å skade mennesker eller planeten. Les videre for å lære hvordan Dawn fikk sin start, hennes største utfordring, favorittkjole av sesongen og mer.</p>
 			<br/>
 
-			<img src="./../artikkelBilder/chrisDawn/Dawn4.png" alt="Dawn4" style="width:60%;>
+			<img src="./../artikkelBilder/chrisDawn/Dawn4.png" alt="Dawn4">
 
 			<br/><br/>
 			<h3>Hvordan kom du i gang med mote design? Har
@@ -279,7 +278,7 @@ const posts = [
 			av tiden, gjør vi mer skade enn godt.</p>
 			<br/>
 
-			<img src="./../artikkelBilder/chrisDawn/Dawn3.png" alt="Dawn3" style="width:60%;>
+			<img src="./../artikkelBilder/chrisDawn/Dawn3.png" alt="Dawn3">
 			
 			<br/>
 			<p><b>Designet av kjolene:</b><br/>
@@ -294,7 +293,7 @@ const posts = [
 			Mer enn noe annet er prioriteringen på kvaliteten til hvert plagg. Det er derfor de betaler for de mest talentfulle syerskene i Los Angeles, som får konkurransedyktige lønninger og helsefordeler. Alle blir behandlet som familie, og selvom butikken vokser vil de fortsette med dette.</p>
 			<br/>
 			
-			<img src="./../artikkelBilder/chrisDawn/Dawn5.png" alt="Dawn5" style="width:60%;>
+			<img src="./../artikkelBilder/chrisDawn/Dawn5.png" alt="Dawn5">
 			<i>
 			<p>I grew up in Placerville, California, where little has changed in the past hundred years. The town is timeless. Though, it wasn’t until I moved to Los Angeles that I noticed just how timeless it is, and the impact my hometown inevitably had on me.<br/><br/>
 			It’s what drew me to design vintage inspired clothing. There is something beyond the fabric I can hold on to. Something honest about vintage. Something classic. Something timeless, that reminds me of home. It’s the dress you long for when you stumble upon that box of old photographs of your grandmother. The lines and fabric tell a story. They’re the clothes and stories I hope to pass on through CHRISTY DAWN.<br/><br/>

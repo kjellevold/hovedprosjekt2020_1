@@ -48,7 +48,7 @@
 
 {#if clicked}
     <div id="backBtn">
-        <p on:click={back}> - Back</p>
+        <p on:click={back} > - Back</p>
     </div>
     <Post data={infoArr} />
 {/if}
@@ -92,14 +92,7 @@
     #artikkelGrid {
         display: grid;
         grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
-        gap: 1rem;
-        width: 70%;
     }
-    
-    h2 {
-            font-size: 2rem;
-            width: 15rem;
-        }
 }
 
 </style>

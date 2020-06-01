@@ -1,4 +1,4 @@
-<svelte:head>
+<!-- <svelte:head>
 	<title>Sustainability Goal 12</title>
 </svelte:head>
 
@@ -17,7 +17,7 @@
     import { fade, fly } from 'svelte/transition';
 
 </script>
-
+ -->
 <!-- 
 <main>
 

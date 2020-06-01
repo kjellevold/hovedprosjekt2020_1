@@ -22,10 +22,9 @@
 		width: 300px;
 		margin-left: 3px;
 	}
-
-@media (max-width: 600px) {
 	#mapDiv {
-		width: 100%;
+		width: 50%;
+		height: 50%;
 	}
-}
+
 </style>
