@@ -44,7 +44,7 @@ const posts = [
 
 			<img src="./../artikkelBilder/Bangladesh2.png" alt="Bangladesh2">
 			
-			<br/><br/>
+			<br/>
 
 			<h3>Dag 1: Møte med fagbevegelse</h3>
 			<p>Sigurd (fagrådgiver i FIVH) og jeg landa døgnville i Dhaka 08 lokal tid (fem timer før Norge). Gjennom passkontrollen uten problem. Utenfor stod hundrevis av mennesker ved gjerdene og tittet inn. Ventet på folk? Støvete. Varmt. Tjukk dis. Biler og folk overalt. Masse tuting.<br/>
@@ -59,7 +59,7 @@ const posts = [
 			
 			<img src="./../artikkelBilder/Bangladesh1.png" alt="Bangladesh1">
 			
-			<br/><br/>
+			<br/>
 			<h3>Dag 3: Jakt på locations</h3>
 			<p>Fikseren vår, Zaeed tok oss med til gamlebyen. Skulle finne locations hvor vi senere kan filme Anja når hun kommer. Sett på og filma gateliv og trafikk. Masse mennesker. Kjørt tuktuk. Den heftigste kjøreturen jeg har hatt i mitt liv, verre enn i går. Hissig sjåfør. Føltes som om vi skulle krasje hele tiden, eller og tuktuken skulle kapitulere når som helst.</p>
 			
@@ -106,7 +106,7 @@ const posts = [
 
 			<img src="./../artikkelBilder/Frihet1.png" alt="Frihet1">
 			
-			<br/><br/>
+			<br/>
 			<p>Hvor navnet kommer fra? Try Arm betyr «sterk arm», sier Vita Matcachat, en av arbeiderne – og eierne – på undertøysfabrikken Try Arm, og krummer armen sin mens hun smiler.<br/>
 			– Samtidig likner det jo på Triumph, og vi vil jo erte Triumph med navnet! sier Vita og ler hjertelig.<br/>
 			Jeg sitter på en plaststol i andre etasje i den lille fabrikken Try Arm og snakker med Vita, daglig leder på den arbeiderstyrte fabrikken.
@@ -129,7 +129,7 @@ const posts = [
 			I 2010 var det arbeidere på Triumph sin tur. En rekke arbeidere som hadde engasjert seg for rettighetene til arbeiderne ble sparket. Offisielt var dette på grunn av omstrukturering. Men dette kjøper ikke Vita Matcachat.<br/> 
 			– Vi mener det var fagforeningsknusing, sier hun.<br/> Under ett år senere hadde arbeidere, etter først å ha demonstrert i flere måneder, startet Try Arm.</p>
 			
-			<br/><br/>
+			<br/>
 			<h3>Fra frykt til frihet</h3>
 			<p>– Å jobbe her har forandret livet mitt, sier Wiparatt Paokhanha på Dignity Returns. Wiparatt er i femtiårene, og syr krager mens hun snakker. Hun utstråler en mild ro, men forteller om en dramatisk historie.<br/>
 			– Jeg jobbet på Bed & Bath i over ett år. Jeg likte det ikke, men jeg trengte jobben. Jeg jobbet sent hver kveld, og hadde verken tid til å hvile eller tid til familien. Noen ganger, hvis det var store ordre, måtte vi bli på jobb. Da kunne vi jobbe hele natten til soloppgang.
@@ -169,13 +169,13 @@ const posts = [
 
 			<img src="./../artikkelBilder/grønnDrøm1.png" alt="grønnDrøm1">
 			
-			<br/><br/>
+			<br/>
 			<p>Imidten av mai var jeg til stede på Copenhagen Fashion Summit. Dette er verdens største samling for såkalt bærekraftig mote og en arena der motebransjen kan diskutere de sosiale og miljømessige utfordringene industrien står ovenfor. Copenhagen Fashion Summit ble første gang arrangert i 2009, og har blitt en prestisjefylt konferanse med den danske kronprinsessen som beskytter. Blant deltakerne var alt fra store internasjonale kleskjeder som H&M, Nike og norske Varner-gruppen, til kjente designer-merker som Ganni og Stella McCartney. I tillegg var flere profilerte motebloggere og såkalte «influencere» til stede. Forretningsmodellen må utfordres Et av temaene på konferansen var sirkulær økonomi, der fokus lå på hvordan klesindustrien kan bidra til at klær ikke ender opp som avfall, men istedenfor gjenbrukes og resirkuleres i et lukket kretsløp. Det er dette H&M sikter til når de bruker begrepet «close the loop on fashion».<br/>
 			Et annet tema som ble belyst, er hvordan tekstilindustrien kan redusere sitt miljø- og klimaavtrykk ved å ta i bruk nye teknologiske løsninger for å minske forbruket av vann, energi og kjemikalier i produksjonsprosessen. Dette ble blant annet satt på dagsorden av en representant for sportsmerket Nike.<br/>
 			Men er sirkulær økonomi, resirkulering og teknologiske løsninger svaret på problemene som klesindustrien står overfor? Er slike tiltak tilstrekkelige for å minske motebransjens enorme klima- og miljøavtrykk? Og sist, men ikke minst: Er det mulig å skape en bærekraftig klesindustri og samtidig opprettholde dagens forretningsmodell – som er basert på masseproduksjon av billig mote?<br/>
 			La det være klart: Teknologi som kan hjelpe oss å resirkulere tekstilfibre, eller som kan bidra til mindre bruk av vann, energi og kjemikalier i produksjonen av tekstiler, er skritt i riktig retning. Likevel har et utelukkende fokus på slike løsninger klare begrensinger. En av dem er at det på nåværende tidspunkt ikke er mulig å resirkulere tekstiler i stor skala, og det er lite sannsynlig at vi får på plass slik teknologi i overskuelig framtid. En annen begrensing er at selv om kleskjedene klarer å redusere vann- og kjemikalieforbruket i for eksempel bomullsproduksjon, så vil prosessen likevel være svært energikrevende og bomullen ha et stort klima- og miljøavtrykk.</p>
 
-			<br/><br/>
+			<br/>
 			<h3>Moteindustriens våte drøm</h3>
 			<p>Fra et slikt ståsted er det nærliggende å betrakte det økende fokuset på sirkulær økonomi og teknologiske løsninger som klesbransjens våte drøm: Kleskjedene kan opprettholde sin «fast fashion»-modell, basert på hyppige kolleksjoner og masseproduksjon av billige klær, uten at de trenger å gjøre grunnleggende endringer verken med hensyn til produksjonsvolum eller sin ofte intense markedsføring. For hovedproblemet ved dagens moteindustri – og den egentlige trusselen mot miljøet – ligger nemlig i selve forretningsmodellen: overproduksjon og overforbruk av klær.<br/>
 			Med tanke på at Copenhagen Fashion Summit ifølge arrangørene skal være en ledende plattform for bærekraft, syns jeg derfor det er påfallende at slike grunnleggende problemstillinger i liten grad ble berørt under konferansen. Til tross for at flere av de som deltok i panelsamtalene faktisk gjorde forsøk på å problematisere overproduksjon – en av dem kalte det betegnende nok «elefanten i rommet» – førte dette likevel ikke til videre diskusjoner. Hvis moteindustrien ikke tar innover seg slike realiteter, vil imidlertid initiativer som Copenhagen Fashion Summit aldri kunne tilby annet enn symptomlindring.</p>
@@ -198,7 +198,7 @@ const posts = [
 
 			<img src="./../artikkelBilder/chrisDawn/Dawn2.png" alt="Dawn2">
 			
-			<br/><br/>
+			<br/>
 			<p>Hver Christy Dawn-kjole er laget av deadstock-stoff, noe som betyr at det var rester fra et større designhus. Mengder kan være begrenset, men utbetalingen er en bærekraftig materialekilde som ikke lenger skader miljøet.<br/><br/>
 			Designeren av det eponymiske merkevaret stopper ikke der med sitt engasjement for å sende godhet ut i verden. Hun betaler også sine arbeidere rettferdige lønninger. Det betyr at kjolen hennes ikke er billig, i hvert fall i forhold til raske motepriser. Men hun håper at forbrukerne begynner å forstå at når de velger en $ 30 kjole, bidrar de også ofte til en industri av mishandlede arbeidstakere og overdreven forurensning i form av slavearbeid og giftige kjemikalier, inkludert bly, kvikksølv og arsenik dumpet direkte inn i gater.<br/><br/>
 			Moteindustrien er den nest største forurenseren i verden, like etter oljeindustrien. Tekstilbehandling og døende utgjør 20% av industriell vannforurensning, og 90% av avløpsvannet i utviklingsland blir dumpet i elver uten behandling. Listen over miljøkrenkelser begått av moteindustrien går igjen og igjen.<br/><br/>
@@ -207,7 +207,7 @@ const posts = [
 
 			<img src="./../artikkelBilder/chrisDawn/Dawn4.png" alt="Dawn4">
 
-			<br/><br/>
+			<br/>
 			<h3>Hvordan kom du i gang med mote design? Har
 			du studert det på skolen?</h3>
 			<p>“Mote design begynnelsen er forankret i Placerville, den lille byen hvor jeg vokste opp. Det nærmeste kjøpesenteret var en times kjøretur unna. Så mye av det jeg hadde på, kom fra den lokale butikkbutikken. Den ble raffinert av takknemlighet for unike stykker, klut som fortalteen historie, hadde et minne. Selvfølgelig krevde jeg også at jeg lærte å endre brikkene jeg fantfordi mye av det ikke passet. På denne måten begynte jeg min kjærlighetsaffære med mote. “</p>
