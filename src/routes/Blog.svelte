@@ -15,11 +15,10 @@
         })
     })
 
-    let img = ""
-    let tile = ""
     let id = ""
     let clicked = false
     let infoArr = []
+    /* Du får endre navn på variablene senere haha */
     const test = (info) => {
         infoArr = info
         clicked = true

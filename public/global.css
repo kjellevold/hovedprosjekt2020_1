@@ -144,7 +144,7 @@ button:focus {
 		padding: 3px;
 	}
 
-/***** user *****/
+
 	#user {
 		position: relative;
 		z-index: 3;
@@ -267,7 +267,6 @@ button:focus {
 
 	}
 
-/***** user *****/
 	#imgProfil {
 		width: 5%;
 	}

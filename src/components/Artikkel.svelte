@@ -1,5 +1,5 @@
 <script>
-     
+    
     import post from './_post.js'
 
     let html = []

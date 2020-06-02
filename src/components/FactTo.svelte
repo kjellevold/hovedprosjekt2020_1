@@ -15,8 +15,6 @@
 
 </script>
 
-
-
     <div>
         <div>{data.fact}</div>
     </div>
