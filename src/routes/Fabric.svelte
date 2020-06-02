@@ -14,6 +14,7 @@
 		<MapMarker lat={12.868071} lon={74.855369} label="Bhola Apartment (Sowkar Textiles Factory)"/>
 		<MapMarker lat={10.877230} lon={106.589395} label="Garment Factory Clothing Manufacturer Textile Company - Gold Garment G&G"/>
 		<MapMarker lat={5.328948} lon={100.483226} label="New Starlight Garment Factory"/>
+		<MapMarker lat={33.872413} lon={48.790756} label="Borujerd Textile Factories"/>
 	</Map>
 </div>
 
@@ -23,8 +24,9 @@
 		margin-left: 3px;
 	}
 	#mapDiv {
-		width: 50%;
-		height: 50%;
+		width: 80rem;
+		height: 50rem;
+		margin: 0 auto;
 	}
 
 </style>

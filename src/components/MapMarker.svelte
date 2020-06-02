@@ -10,7 +10,7 @@
 	export let lon;
 	export let label;
 
-	const popup = new mapbox.Popup({ offset: 25 })
+	const popup = new mapbox.Popup({ offset: 20 })
 		.setText(label);
 
 	const marker = new mapbox.Marker()

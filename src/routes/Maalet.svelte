@@ -2,7 +2,7 @@
 
 </script>
 
-<main>
+<main id="mainMaalet">
     <p>Bærekraftig forbruk og produksjon handler om å fremme ressurs- og energieffektivitet,
     bærekraftig infrastruktur og gi tilgang til grunnleggende
     tjenester, grønne og anstendige arbeidsplasser og en bedre livskvalitet for
@@ -78,11 +78,17 @@
 
 
 <style>
-@media screen and (max-width: 400px) { 
-    main {
-        width: 90%;
-        margin: 0 auto;
+    #mainMaalet {
+        width: 70%;
+        margin: 0 auto 5rem auto;
     }
+
+@media (min-width: 1100px) { 
+    #mainMaalet {
+        width: 50%;
+        margin: 0 auto 5rem auto;
+    }
+
 }
 
 </style>

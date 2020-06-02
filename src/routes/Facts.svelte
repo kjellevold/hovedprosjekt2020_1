@@ -52,7 +52,6 @@
 <style>
     h2 {
         width: 150px;
-        padding-top: 150px;
         margin-left: 20px;
     }
 
@@ -69,7 +68,7 @@
         padding: 1rem;
     }
 
-    @media (min-width: 600px) {
+    @media (min-width: 1100px) {
         h2 {
             font-size: 2rem;
             width: 15rem;

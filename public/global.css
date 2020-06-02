@@ -66,19 +66,24 @@ button:focus {
 		margin: 0;
 	}
 
+	#header {
+		width: 100%;
+		height: 15rem;
+	}
+
 	#logo {
 		position: relative;
 		z-index: 3;
-		width: 10%;
+		width: 20rem;
 		float: inline-start;
-		margin-top: 55px;
-		margin-left: 30px;
+		margin-top: 5%;
+		margin-left: 8%;
 	}
 
 	h1 {
 		cursor: pointer;
 		position: relative;
-		width: 220px;
+		width: 15rem;
 		color: #D08C25;
 		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 		line-height: 2.7rem;
@@ -148,22 +153,21 @@ button:focus {
 	#user {
 		position: relative;
 		z-index: 3;
-		height: 50px;
+		height: 5rem;
 		margin: 0 auto;
 	}
 
 	#logOutBtn {
 		position: relative;
-		top: -50px;
+		top: 0rem;
 	}
 
 	#imgProfil {
-
-		  border-radius: 50%;
-		  float: right;
-		  width: 10%;
-		  margin-top: 50px;
-		  margin-right: 20px;
+		border-radius: 50%;
+		float: right;
+		width: 6%;
+		margin-top: 3rem;
+		margin-right: 3rem;
 	}
 
 	#noUser {
@@ -172,9 +176,9 @@ button:focus {
 	  	color: white;
 		display: block;
 		float: right;	
-		font-size: 10px;
-		margin-top: 20px;
-		margin-right: 20px;
+		font-size: 1rem;
+		margin-top: 1rem;
+		margin-right: 5rem;
 	}
 
 	#header > button {
@@ -208,7 +212,7 @@ button:focus {
 /***************   STOR SKJERM   ***************/
 /****************  FRA 1100PX   ***************/
 
-@media (min-width: 600px) {
+@media (min-width: 1100px) {
 	html, body {
 		position: relative;
 		width: 100%;
@@ -217,10 +221,15 @@ button:focus {
 		padding: 0;
 	}
 
+	#header {
+		width: 100%;
+		height: 15rem;
+	}
+
 	#logo {
 		position: relative;
 		z-index: 3;
-		width: 5%;
+		width: 5rem;
 		margin: 5% 2% 3% 8%;
 		float: left;
 	}
@@ -273,6 +282,28 @@ button:focus {
 
 	#logOutBtn {
 		right: -5rem;
+	}
+
+	#noUser {	
+		font-size: 1rem;
+		margin-top: 1rem;
+		margin-right: 5rem;
+	}
+
+	#user {
+		height: 5rem;
+		margin: 0 auto;
+	}
+
+	#logOutBtn {
+		position: relative;
+		top: -3rem;
+	}
+
+	#imgProfil {
+		width: 5%;
+		margin-top: 3rem;
+		margin-right: 5rem;
 	}
 
 
