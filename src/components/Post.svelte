@@ -11,7 +11,16 @@
 
 <style>
 
-	
+	#artikkel {
+		max-width: 70%;
+		margin: 0 auto 10rem auto;
+	}
+
+	#artikkel :global(img) {
+		max-width: 110%;
+		margin: 0 auto;
+	}
+
 
 
 </style>

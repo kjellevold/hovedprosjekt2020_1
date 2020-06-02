@@ -68,7 +68,7 @@
         </div>
 
         <div id="videoBg" style="padding:56.25% 0 0 0;position:relative;">
-          <iframe src="https://player.vimeo.com/video/397563603?autoplay=0&loop=0&color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:150%;height:150%;" frameborder="0" allow="no;" allowfullscreen ></iframe>
+          <iframe src="https://player.vimeo.com/video/397563603?autoplay=0&loop=1&color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:150%;height:150%;" frameborder="0" allow="no;" allowfullscreen ></iframe>
         </div><script src="https://player.vimeo.com/api/player.js"></script>
     {/if}
 
