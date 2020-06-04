@@ -25,7 +25,7 @@
 	}
 	#mapDiv {
 		width: 80rem;
-		height: 50rem;
+		height: 140rem;
 		margin: 0 auto;
 	}
 

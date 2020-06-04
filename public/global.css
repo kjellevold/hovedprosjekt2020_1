@@ -78,6 +78,7 @@ button:focus {
 		float: inline-start;
 		margin-top: 5%;
 		margin-left: 8%;
+		animation: fly 6s linear;
 	}
 
 	h1 {
@@ -94,6 +95,7 @@ button:focus {
 		padding: 1rem;
 		float: left;
 		z-index: 3;
+		animation: fly 6s linear;
 	}
 
 	#tolvHeader {
@@ -120,7 +122,8 @@ button:focus {
   		width: 19rem;
   		transition: all 0.5s;
   		cursor: pointer;
-  		margin: 1rem auto;
+		margin: 1rem auto;
+		animation: fly 6s linear;
 	}
 
 	#videoBg {
@@ -157,7 +160,7 @@ button:focus {
 		margin: 0 auto;
 	}
 
-	
+
 	#logOutBtn {
 		position: relative;
 		top: 0rem;
@@ -204,7 +207,17 @@ button:focus {
 		margin-top: 60px;
 	}
 
-
+	@keyframes fly {
+		0% {
+			opacity: 0;
+		}
+		50% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
 
 
  

@@ -3,24 +3,26 @@
 </script>
 
 <main id="mainMaalet">
-    <p>Bærekraftig forbruk og produksjon handler om å fremme ressurs- og energieffektivitet,
-    bærekraftig infrastruktur og gi tilgang til grunnleggende
-    tjenester, grønne og anstendige arbeidsplasser og en bedre livskvalitet for
-    alle. Gjennomføringen bidrar til å oppnå overordnede utviklingsplaner, redusere
-    fremtidige økonomiske, miljømessige og sosiale kostnader, styrke
-    økonomisk konkurranseevne og redusere fattigdom.
-    På nåværende tidspunkt øker materialforbruket av naturressurser, spesielt
-    i Øst-Asia. Land fortsetter også å takle utfordringer knyttet til luft, vann og
-    jordforurensning.<br/>
-    Siden bærekraftig forbruk og produksjon tar sikte på å “gjøre mer og bedre
-    med mindre”, kan nettomsorgsgevinstene fra økonomiske aktiviteter øke
-    ved å redusere ressursbruk, nedbrytning og forurensning gjennom hele
-    livssyklusen, samtidig som livskvaliteten økes. Det må også være betydelig
-    fokus på drift på forsyningskjeden, som involverer alle fra produsent
-    til sluttbrukere. Dette inkluderer utdannelse av forbrukere om bærekraftig
-    forbruk og livsstil, og gir dem tilstrekkelig informasjon gjennom standarder
-    og etiketter og engasjere seg i bærekraftig offentlig anskaffelse, blant
-    annet.</p>
+    <div id="ingress">
+        <p>Bærekraftig forbruk og produksjon handler om å fremme ressurs- og energieffektivitet,
+        bærekraftig infrastruktur og gi tilgang til grunnleggende
+        tjenester, grønne og anstendige arbeidsplasser og en bedre livskvalitet for
+        alle. Gjennomføringen bidrar til å oppnå overordnede utviklingsplaner, redusere
+        fremtidige økonomiske, miljømessige og sosiale kostnader, styrke
+        økonomisk konkurranseevne og redusere fattigdom.
+        På nåværende tidspunkt øker materialforbruket av naturressurser, spesielt
+        i Øst-Asia. Land fortsetter også å takle utfordringer knyttet til luft, vann og
+        jordforurensning.<br/>
+        Siden bærekraftig forbruk og produksjon tar sikte på å “gjøre mer og bedre
+        med mindre”, kan nettomsorgsgevinstene fra økonomiske aktiviteter øke
+        ved å redusere ressursbruk, nedbrytning og forurensning gjennom hele
+        livssyklusen, samtidig som livskvaliteten økes. Det må også være betydelig
+        fokus på drift på forsyningskjeden, som involverer alle fra produsent
+        til sluttbrukere. Dette inkluderer utdannelse av forbrukere om bærekraftig
+        forbruk og livsstil, og gir dem tilstrekkelig informasjon gjennom standarder
+        og etiketter og engasjere seg i bærekraftig offentlig anskaffelse, blant
+        annet.</p>
+</div>
     <br/><br/>
 
     <h2>Delmål</h2>
@@ -30,7 +32,7 @@
     foran, samtidig som det tas hensyn til utviklingslandenes utviklingsnivå og
     muligheter.<br/><br/>
     <b>12.2</b><br/>
-    Innen 2030 oppnå en bærekraftig forvaltning og effektiv bruk av naturressurser.<br/>
+    Innen 2030 oppnå en bærekraftig forvaltning og effektiv bruk av naturressurser.<br/><br/>
     <b>12.3</b><br/>
     Innen 2030 halvere andelen matavfall per innbygger på verdensbasis,
     både i detaljhandelen og blant forbrukere, og redusere svinn i produksjons-

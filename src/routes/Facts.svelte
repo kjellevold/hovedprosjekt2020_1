@@ -22,6 +22,9 @@
 
 
 <h2>Not so funfacts</h2>
+<div id="imgBox">
+    <img id="bgImg" src="./artikkelBilder/bg1.jpg" alt="bgimg">
+</div>
 
 <div id="gridFact">
     {#if $user}
@@ -55,16 +58,26 @@
         margin-left: 20px;
     }
 
+    #imgBox {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        overflow: hidden;
+    }
+
     #gridFact {
         display: grid;
     	grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
         gap: 1rem;
         width: 70%;
         margin: 0 auto;
+        position: relative;
+        z-index: 3;
     }
 
     #fact {
-        border: dashed 0.2rem #D08C25;
+        background-color: rgba(255, 255, 255, 0.7);
         padding: 1rem;
     }
 
@@ -81,7 +94,7 @@
         }
 
         #fact {
-            border: dashed 0.3rem #D08C25;
+            background-color: rgba(255, 255, 255, 0.7);
             font-size: 1rem;
         }
     }

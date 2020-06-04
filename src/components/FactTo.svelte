@@ -16,7 +16,11 @@
 </script>
 
     <div>
-        <div>{data.fact}</div>
+        <div id="theFact">{data.fact}</div>
     </div>
 
+<style>
+    
 
+
+</style>
