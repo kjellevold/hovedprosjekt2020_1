@@ -65,12 +65,19 @@
 
     #artikkel {
         height: 250px;
+        animation: fade 1s linear;
+    }
+
+    @keyframes fade {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
     }
 
     #backBtn {
         position: relative;
         margin: 5px;
         height: 20px;
+        cursor: pointer;
     }
 
     h2 {

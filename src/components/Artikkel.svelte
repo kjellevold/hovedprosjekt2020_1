@@ -15,6 +15,7 @@
     </div>
 <style>
     div {
+        cursor: pointer;
         width: 100%;
         height: 80%;
         margin: 10px;

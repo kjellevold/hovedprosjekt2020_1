@@ -4,6 +4,7 @@
 
 <main id="mainMaalet">
     <div id="ingress">
+    <b>
         <p>Bærekraftig forbruk og produksjon handler om å fremme ressurs- og energieffektivitet,
         bærekraftig infrastruktur og gi tilgang til grunnleggende
         tjenester, grønne og anstendige arbeidsplasser og en bedre livskvalitet for
@@ -22,8 +23,10 @@
         forbruk og livsstil, og gir dem tilstrekkelig informasjon gjennom standarder
         og etiketter og engasjere seg i bærekraftig offentlig anskaffelse, blant
         annet.</p>
-</div>
+    </b>
+    </div>
     <br/><br/>
+<div id="resten">
 
     <h2>Delmål</h2>
     <p><b>12.1</b><br/>
@@ -76,6 +79,7 @@
     og situasjon og eventuelle skadelige konsekvenser for deres utvikling begrenses
     mest mulig og på en måte som beskytter de fattige og de berørte
     lokalsamfunnene.</p>
+</div>
 </main>
 
 
@@ -83,6 +87,27 @@
     #mainMaalet {
         width: 70%;
         margin: 0 auto 5rem auto;
+    }
+
+    #ingress {
+        font-size: 1.2rem;
+        animation: one 1s linear;
+    }
+
+    @keyframes one {
+        0% { opacity: 0; }
+        50% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+
+    #resten {
+        animation: two 8s linear;
+    }
+
+    @keyframes two {
+        0% { opacity: 0; }
+        80% { opacity: 0; }
+        100% { opacity: 1; }
     }
 
 @media (min-width: 1100px) { 

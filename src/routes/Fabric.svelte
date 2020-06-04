@@ -25,8 +25,15 @@
 	}
 	#mapDiv {
 		width: 80rem;
-		height: 140rem;
+		height: 100vh;
 		margin: 0 auto;
+		animation: fade 2s linear;
+	}
+
+	@keyframes fade {
+		0% { opacity: 0; }
+		50% { opacity: 0; }
+		100% { opacity: 1; }
 	}
 
 </style>

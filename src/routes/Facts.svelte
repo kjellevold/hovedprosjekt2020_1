@@ -70,10 +70,13 @@
         display: grid;
     	grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
         gap: 1rem;
+        height: 21rem;
+        overflow: scroll;
         width: 70%;
-        margin: 0 auto;
+        margin: 3rem auto;
         position: relative;
         z-index: 3;
+        animation: fade 2s linear;
     }
 
     #fact {
@@ -81,22 +84,38 @@
         padding: 1rem;
     }
 
+    @keyframes fade {
+        0% { opacity: 0; }
+        50% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+
     @media (min-width: 1100px) {
         h2 {
             font-size: 2rem;
             width: 15rem;
+            
         }
 
         #gridFact {
             display: grid;
             grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
             gap: 2rem;
+            height: 30rem;
+            animation: fade 2s linear;
         }
 
         #fact {
             background-color: rgba(255, 255, 255, 0.7);
-            font-size: 1rem;
+            font-size: 1.3rem;
+            padding: 1.5rem;
         }
+        @keyframes fade {
+            0% { opacity: 0; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
     }
 
 
