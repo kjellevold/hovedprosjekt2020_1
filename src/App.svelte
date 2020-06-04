@@ -8,10 +8,8 @@
   import {authState} from "rxfire/auth"  
   import { user } from './components/_store.js'
   import { createEventDispatcher } from "svelte"
-  import Home from "./routes/Home.svelte"
   import Blog from "./routes/Blog.svelte"
   import Facts from "./routes/Facts.svelte"
-  import Tolv from "./routes/Tolv.svelte"
   import Maalet from './routes/Maalet.svelte'
   import Fabric from './routes/Fabric.svelte'
   import { fade, fly, slide } from 'svelte/transition';
@@ -59,14 +57,13 @@
 
 <main>
    {#if whatPage == 1}
-   <Tolv />
-        <div id="tolvHeader"> <!-- KNAPPENE SKAL FADE INN ETTER 5 SEK -->
+        <div id="tolvHeader"> 
             <button on:click={ () => whatPage = 2 } transition:fade>FunFacts</button>
             <button on:click={ () => whatPage = 3 } transition:fade>Blog</button>
             <button on:click={ () => whatPage = 4 } transition:fade>Målet</button>
             <button on:click={ () => whatPage = 5 } transition:fade>Kart</button>
         </div>
-<!-- HUSK Å ENDRE autoplay=0 TIL 1 - OG allow="no" TIL allow="autoplay" -->
+
         <div id="videoBg" style="padding:56.25% 0 0 0;position:relative;">
           <iframe src="https://player.vimeo.com/video/397563603?autoplay=0&loop=1&color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:150%;height:150%;" frameborder="0" allow="no;" allowfullscreen ></iframe>
         </div><script src="https://player.vimeo.com/api/player.js"></script>
